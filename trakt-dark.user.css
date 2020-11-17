@@ -2,7 +2,7 @@
 @name         Trakt.tv Dark
 @namespace    PhongGuy
 @author       PhongGuy
-@version      1.0.1
+@version      1.0.2
 @homepageURL  https://github.com/PhongGuy/css-styles
 @updateURL    https://raw.githubusercontent.com/PhongGuy/css-styles/main/trakt-dark.user.css
 ==/UserStyle== */
@@ -22,7 +22,10 @@
 
   body section,
   #hu-ck-s-t-er-content-page,
-  #hu-ck-s-t-er-de-sk-top-wrapper {
+  #hu-ck-s-t-er-de-sk-top-wrapper.light,
+  #hu-ck-s-t-er-mo-b-ile-square-wrapper.light,
+  #hu-ck-s-t-er-de-sk-top-wrapper.light .hu-ck-s-t-er-v-i-p-label,
+  #hu-ck-s-t-er-de-sk-top-wrapper.light .hu-ck-s-t-er-v-i-p-info {
     background-color: #1d1d1d;
   }
 
