@@ -2,7 +2,7 @@
 @name         TeamFortress.tv Dark
 @namespace    PhongGuy
 @author       PhongGuy
-@version      1.0.0
+@version      1.0.1
 @homepageURL  https://github.com/PhongGuy/css-styles
 @updateURL    https://raw.githubusercontent.com/PhongGuy/css-styles/main/tftv-dark.user.css
 ==/UserStyle== */
@@ -21,6 +21,7 @@
   .btn,
   .card,
   .filter-menu,
+  .game-switch,
   .list-table td,
   .list-table td:last-child,
   .list-table tr:last-child td,
@@ -53,6 +54,7 @@
   #post-preview,
   #schedule-table td img,
   .card,
+  .game-switch.active,
   .module-filter-menu,
   .module-header,
   .module-header:hover,
@@ -74,6 +76,7 @@
   #schedule-table td:nth-child(2),
   .blockr.pages .post-count,
   .btn,
+  .game-switch,
   .module-item-title,
   .news-item-meta,
   .post-body,
@@ -95,18 +98,20 @@
   }
 
   .btn:not(.mod-active):hover,
+  .game-stats tr.odd td,
+  .game-switch,
   .module,
   .module-item.mod-featured,
   .module-item:hover {
-    background: #2f3035;
+    background: #2f3035 !important;
   }
 
   .thread-frag-btn.plus #thread-frag-count {
-    background: #2d2d2d;
+    background: #2d2d2d !important;
   }
 
   .filter-menu a:hover {
-    background: #507695;
+    background: #507695 !important;
   }
 
   .post {
@@ -119,7 +124,7 @@
   }
 
   tr:nth-child(even) {
-    background-color: #242424;
+    background-color: #242424 !important;
   }
 
   .post-body q {
@@ -130,7 +135,12 @@
 
   #article-list a,
   #post-editor-header,
+  .game-switch.active,
   .module-filter-menu {
-    color: #d2d2d2;
+    color: #d2d2d2 !important;
+  }
+
+  .game-switch.active:after {
+    content: none;
   }
 }
