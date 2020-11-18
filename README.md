@@ -9,8 +9,8 @@ A userstyle manager is required, common ones include:
 
 Then install the one you want. Supports automatic updates.
 
-📦 [Trakt.tv Dark](https://raw.githubusercontent.com/PhongGuy/css-styles/main/trakt-dark.user.css)
+📦 [Trakt.tv Dark](https://raw.githubusercontent.com/PhongGuy/css-styles/main/dist/trakt-dark.user.css)
 
-📦 [TeamFortress.tv Dark](https://raw.githubusercontent.com/PhongGuy/css-styles/main/tftv-dark.user.css)
+📦 [TeamFortress.tv Dark](https://raw.githubusercontent.com/PhongGuy/css-styles/main/dist/tftv-dark.user.css)
 
 <!-- sass tftv-dark.user.scss dist/tftv-dark.user.css --no-source-map --watch --style compressed -->
