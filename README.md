@@ -10,3 +10,4 @@ A userstyle manager is required, common ones include:
 Then install the one you want. Supports automatic updates.
 
 📦 [Trakt.tv Dark](https://raw.githubusercontent.com/PhongGuy/css-styles/main/trakt-dark.user.css)
+📦 [TeamFortress.tv Dark](https://raw.githubusercontent.com/PhongGuy/css-styles/main/tftv-dark.user.css)

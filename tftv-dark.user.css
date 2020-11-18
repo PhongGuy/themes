@@ -1,0 +1,136 @@
+/* ==UserStyle==
+@name         TeamFortress.tv Dark
+@namespace    PhongGuy
+@author       PhongGuy
+@version      1.0.0
+@homepageURL  https://github.com/PhongGuy/css-styles
+@updateURL    https://raw.githubusercontent.com/PhongGuy/css-styles/main/tftv-dark.user.css
+==/UserStyle== */
+@-moz-document domain("teamfortress.tv") {
+  #content,
+  body,
+  html {
+    background: #1e1e1e;
+  }
+
+  #content,
+  #post-editor,
+  #post-editor.is-focusd,
+  #schedule-table td:first-child,
+  #thread-container,
+  .btn,
+  .card,
+  .filter-menu,
+  .list-table td,
+  .list-table td:last-child,
+  .list-table tr:last-child td,
+  .module,
+  .module-header,
+  .module-header:hover,
+  .module-item,
+  .module-item.mod-divider,
+  .post,
+  a.btn {
+    border: none !important;
+  }
+
+  #article-body h1,
+  #main-feature-title-wrapper,
+  .filter-menu a,
+  .module-header,
+  .module-item-title-sub,
+  .sub-feature-title,
+  .thread-header-title,
+  input[type="search"],
+  input[type="text"],
+  select,
+  textarea {
+    color: #fff !important;
+  }
+
+  #post-editor-header,
+  #post-loading,
+  #post-preview,
+  #schedule-table td img,
+  .card,
+  .module-filter-menu,
+  .module-header,
+  .module-header:hover,
+  .post,
+  .post-header,
+  input[type="search"],
+  input[type="text"],
+  select,
+  textarea {
+    background: #232529 !important;
+  }
+
+  .module-header {
+    text-shadow: none;
+  }
+
+  #main-feature-desc,
+  #schedule-table td:first-child,
+  #schedule-table td:nth-child(2),
+  .blockr.pages .post-count,
+  .btn,
+  .module-item-title,
+  .news-item-meta,
+  .post-body,
+  .post-num,
+  .profile-table,
+  .profile-table td:first-child,
+  a.btn,
+  a.post-author,
+  body,
+  html {
+    color: #aaaaaa !important;
+  }
+
+  .btn,
+  .btn.is-clicked,
+  .filter-menu,
+  a.btn {
+    background: #34363d !important;
+  }
+
+  .btn:not(.mod-active):hover,
+  .module,
+  .module-item.mod-featured,
+  .module-item:hover {
+    background: #2f3035;
+  }
+
+  .thread-frag-btn.plus #thread-frag-count {
+    background: #2d2d2d;
+  }
+
+  .filter-menu a:hover {
+    background: #507695;
+  }
+
+  .post {
+    margin-bottom: 10px;
+  }
+
+  .post,
+  .post-header {
+    border-radius: 5px;
+  }
+
+  tr:nth-child(even) {
+    background-color: #242424;
+  }
+
+  .post-body q {
+    border: 1px dashed #474747;
+    background: #2f3035;
+    color: #aaaaaa;
+  }
+
+  #article-list a,
+  #post-editor-header,
+  .module-filter-menu {
+    color: #d2d2d2;
+  }
+}
