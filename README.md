@@ -9,8 +9,18 @@ A userstyle manager is required, common ones include:
 
 Then install the one you want. Supports automatic updates.
 
+|     | Meaning |
+| --- | ------- |
+| 📦  | GOOD    |
+| 🦺  | BETA    |
+| 🛠   | PREVIEW |
+
+<br>
+
 📦 [Trakt.tv Dark](https://raw.githubusercontent.com/PhongGuy/css-styles/main/dist/trakt-dark.user.css)
 
 📦 [TeamFortress.tv Dark](https://raw.githubusercontent.com/PhongGuy/css-styles/main/dist/tftv-dark.user.css)
 
-<!-- sass tftv-dark.user.scss dist/tftv-dark.user.css --no-source-map --watch --style compressed -->
+🦺 [Material.io Dark](https://raw.githubusercontent.com/PhongGuy/css-styles/main/dist/material.io-dark.user.css)
+
+<!-- sass themes/material.io-dark.scss dist/material.io-dark.user.css --no-source-map --watch --style compressed -->
