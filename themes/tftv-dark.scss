@@ -2,12 +2,14 @@
 @name         TeamFortress.tv Dark
 @namespace    PhongGuy
 @author       PhongGuy
-@version      2.0.0
+@version      2.0.1
 @homepageURL  https://github.com/PhongGuy/css-styles
 @updateURL    https://raw.githubusercontent.com/PhongGuy/css-styles/main/dist/tftv-dark.user.css
 ==/UserStyle== */
 @-moz-document domain("teamfortress.tv") {
+  #aw,
   #content,
+  .bau,
   .sau,
   body,
   html {
@@ -42,7 +44,6 @@
   #main-feature-title-wrapper,
   .filter-menu a,
   .module-header,
-  .module-item-title-sub,
   .sub-feature-title,
   .thread-header-title,
   input[type="search"],
@@ -89,6 +90,7 @@
   .profile-table,
   .profile-table td:first-child,
   .server-table td,
+  .stream-title,
   a.btn,
   a.post-author,
   body,
@@ -96,6 +98,7 @@
     color: rgb(170,170,170)!important;
   }
 
+  #photo-strip,
   .btn,
   .btn.is-clicked,
   .filter-menu,
@@ -144,11 +147,17 @@
   #post-editor-header,
   .gallery-name,
   .game-switch.active,
-  .module-filter-menu {
+  .module-filter-menu,
+  .module-item-title-sub,
+  .stream-name {
     color: rgb(210 210 210) !important;
   }
 
   .game-switch.active:after {
     content: none;
+  }
+
+  .photo-thumb-mask {
+    background: rgb(0 0 0 / 20%);
   }
 }

@@ -9,11 +9,9 @@ A userstyle manager is required, common ones include:
 
 Then install the one you want. Supports automatic updates.
 
-|     | Meaning |
-| --- | ------- |
-| 📦  | GOOD    |
-| 🦺  | BETA    |
-| 🛠   | PREVIEW |
+| 📦  | GOOD |
+| --- | ---- |
+| 🦺  | BETA |
 
 <br>
 
@@ -23,4 +21,4 @@ Then install the one you want. Supports automatic updates.
 
 🦺 [Material.io Dark](https://raw.githubusercontent.com/PhongGuy/css-styles/main/dist/material.io-dark.user.css)
 
-<!-- sass themes/material.io-dark.scss dist/material.io-dark.user.css --no-source-map --watch --style compressed -->
+<!-- sass themes/tftv-dark.scss dist/tftv-dark.user.css --no-source-map --watch --style compressed -->
