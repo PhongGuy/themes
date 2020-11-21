@@ -2,11 +2,36 @@
 @name         Tf2center.com Dark
 @namespace    PhongGuy
 @author       PhongGuy
-@version      1.0.1
+@version      1.0.2
 @homepageURL  https://github.com/PhongGuy/css-styles
 @updateURL    https://raw.githubusercontent.com/PhongGuy/css-styles/main/dist/tf2center.com-dark.user.css
+
+@advanced dropdown ranbow-button  "Rainbow create" {
+  Yes "Yes" <<<EOT
+  background: linear-gradient(to right, #6666ff, #0099ff , #00ff00, #ff3399, #6666ff);
+  animation: rainbow_animation 6s ease-in-out infinite;
+  background-size: 400% 100%; EOT;
+  No "No" <<<EOT
+  background: #b030b7; EOT;
+}
 ==/UserStyle== */
 @-moz-document domain("tf2center.com") {
+  .btn.createLobby,
+  .btn.createLobby:hover {
+    /*[[ranbow-button]]*/
+    box-shadow: none;
+    text-shadow: none;
+  }
+  @keyframes rainbow_animation {
+    0%,
+    100% {
+      background-position: 0 0;
+    }
+
+    50% {
+      background-position: 100% 0;
+    }
+  }
   /* cyrillic-ext */
   @font-face {
     font-family: 'Roboto';
@@ -223,13 +248,15 @@
     color: #fff!important;
   }
 
-  #drop_menu1,
   #info-bar .active,
   #info-bar .launchStatus div.done,
   #info-bar ul li,
   #mainHeader,
   #nav-bar,
   .lobbyHeaderOptions tr,
+  .lobbyOverviewPanel,
+  .lobbyOverviewPanel.manual:hover,
+  .lobbySubClass #drop_menu1,
   .notificationButton,
   .playerTopMenu,
   .playerTopMenu ul a,
@@ -277,6 +304,7 @@
   #info-bar .active,
   #info-bar .friendsOnline:hover,
   #info-bar .gameType:hover,
+  #info-bar .launchStatus div,
   #info-bar .lobbyMap:hover,
   #info-bar .lobbyRegion:hover,
   #info-bar .lobbyRequirements:hover,
@@ -308,7 +336,10 @@
     font-size: 23px;
   }
 
-  #mainHeader .manual {
+  #mainHeader .manual,
+  .lobbyOverviewPanel.manual .joinLobby,
+  .lobbyOverviewPanel.manual .lobbyID,
+  .lobbySubPanel.manual .joinSub {
     background-color: #1bae65;
   }
 
@@ -323,22 +354,25 @@
     border-right: 1px solid #dcdcdc;
   }
 
-  .btn.createLobby,
-  .btn.createLobby:hover {
-    background: linear-gradient(to right, #6666ff, #0099ff , #00ff00, #ff3399, #6666ff);
-    animation: rainbow_animation 6s ease-in-out infinite;
-    background-size: 400% 100%;
-    box-shadow: none;
-    text-shadow: none;
+  .lobbyOverviewPanel.manual .lobbyID {
+    font-size: 10px;
   }
-  @keyframes rainbow_animation {
-    0%,
-    100% {
-      background-position: 0 0;
-    }
 
-    50% {
-      background-position: 100% 0;
-    }
+  .joinSub {
+    height: 31px;
+  }
+
+  .lobbyOverviewPanel .joinLobbyOverlay,
+  .lobbyOverviewPanel .mapThumb img {
+    height: 75px;
+  }
+
+  .joinSub,
+  .lobbyOverviewPanel.manual .joinLobby {
+    box-shadow: none!important;
+  }
+
+  #info-bar .launchStatus div {
+    color: inherit;
   }
 }
