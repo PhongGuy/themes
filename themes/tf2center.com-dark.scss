@@ -2,15 +2,15 @@
 @name         Tf2center.com Dark
 @namespace    PhongGuy
 @author       PhongGuy
-@version      1.0.6
+@version      1.0.7
 @homepageURL  https://github.com/PhongGuy/css-styles
 @updateURL    https://raw.githubusercontent.com/PhongGuy/css-styles/main/dist/tf2center.com-dark.user.css
 
 @advanced dropdown ranbow-button  "Rainbow create" {
   Yes "Yes" <<<EOT
-  background: linear-gradient(to right, #6666ff, #0099ff , #00ff00, #ff3399, #6666ff);
-  animation: rainbow_animation 6s ease-in-out infinite;
-  background-size: 400% 100%; EOT;
+  background: linear-gradient(to right, #6666ff, #0099ff , #00ff00, #ff3399, #ff6666, #6666ff, #df00ff, #b8bd03);
+  animation: rainbow_animation 10s ease-in-out infinite;
+  background-size: 9999px; EOT;
   No "No" <<<EOT
   background: #b030b7; EOT;
 }
@@ -204,7 +204,9 @@
   #mainHeader .classImage,
   .backgroundLeft,
   .backgroundMain,
+  .footerLollychop,
   .launchStatus .spacer,
+  .lobbyVoteCreate .iconContainer,
   .speechBubble,
   body > span {
     display: none!important;
@@ -266,7 +268,8 @@
   .siteTopMenu .dropdownMenu,
   .siteTopMenu a,
   .siteTopMenu a:visited,
-  .ui-tooltip {
+  .ui-tooltip,
+  footer {
     border: none!important;
   }
 
@@ -317,7 +320,8 @@
 
   ._containerHor,
   ._containerVer,
-  ._containerVerRight {
+  ._containerVerRight,
+  footer {
     background-color: #1b1b1b;
   }
 
@@ -364,7 +368,7 @@
     height: 31px;
   }
 
-  .lobbyOverviewPanel .joinLobbyOverlay,
+  .lobbyOverviewPanel .joinLobby,
   .lobbyOverviewPanel .mapThumb img {
     height: 75px;
   }
@@ -381,5 +385,9 @@
   .lobbyVoteCreate > h1,
   .lobbyVoteCreate > h3 {
     font-weight: 600!important;
+  }
+
+  .lobbyVoteCreate .label {
+    margin-left: 0 !important;
   }
 }
