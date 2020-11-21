@@ -23,7 +23,7 @@ Then install the one you want. Supports automatic updates.
 
 📦 [Tf2center.com Dark](https://raw.githubusercontent.com/PhongGuy/css-styles/main/dist/tf2center.com-dark.user.css)
 
-📦 [Logs.tf Dark](https://raw.githubusercontent.com/PhongGuy/css-styles/main/dist/logs.tf.user.css)
+📦 [Logs.tf Dark](https://raw.githubusercontent.com/PhongGuy/css-styles/main/dist/logs.tf-dark.user.css)
 
 🦺 [Material.io Dark](https://raw.githubusercontent.com/PhongGuy/css-styles/main/dist/material.io-dark.user.css)
 
