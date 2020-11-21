@@ -2,7 +2,7 @@
 @name         Logs.tf Dark
 @namespace    PhongGuy
 @author       PhongGuy
-@version      1.0.0
+@version      1.0.1
 @homepageURL  https://github.com/PhongGuy/css-styles
 @updateURL    https://raw.githubusercontent.com/PhongGuy/css-styles/main/dist/logs.tf-dark.user.css
 ==/UserStyle== */
@@ -300,5 +300,14 @@
 
   .highlight {
     background: #3a3a3a !important;
+  }
+
+  .dropdown,
+  .dropup {
+    display: inline-flex;
+
+    .rating {
+      margin-left: 10px;
+    }
   }
 }
