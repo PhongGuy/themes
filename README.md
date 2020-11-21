@@ -7,6 +7,8 @@ A userstyle manager is required, common ones include:
 🎨 xStyle for [Firefox](https://addons.mozilla.org/firefox/addon/xstyle/), [Chrome](https://chrome.google.com/webstore/detail/xstyle/hncgkmhphmncjohllpoleelnibpmccpj), [Brave](https://chrome.google.com/webstore/detail/xstyle/hncgkmhphmncjohllpoleelnibpmccpj), [Edge](https://chrome.google.com/webstore/detail/xstyle/hncgkmhphmncjohllpoleelnibpmccpj)
 <br>
 
+## Themes
+
 Then install the one you want. Supports automatic updates.
 
 | 📦  | GOOD |
@@ -19,6 +21,8 @@ Then install the one you want. Supports automatic updates.
 
 📦 [TeamFortress.tv Dark](https://raw.githubusercontent.com/PhongGuy/css-styles/main/dist/tftv-dark.user.css)
 
+📦 [Tf2center.com Dark](https://raw.githubusercontent.com/PhongGuy/css-styles/main/dist/tf2center.com-dark.user.css)
+
 🦺 [Material.io Dark](https://raw.githubusercontent.com/PhongGuy/css-styles/main/dist/material.io-dark.user.css)
 
-<!-- sass themes/tftv-dark.scss dist/tftv-dark.user.css --no-source-map --watch --style compressed -->
+<!-- sass themes/tf2center.com-dark.scss dist/tf2center.com-dark.user.css --no-source-map --watch --style compressed -->
