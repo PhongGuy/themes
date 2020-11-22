@@ -2,7 +2,7 @@
 @name         Tf2center.com Dark
 @namespace    PhongGuy
 @author       PhongGuy
-@version      1.0.71
+@version      1.0.72
 @homepageURL  https://github.com/PhongGuy/css-styles
 @updateURL    https://raw.githubusercontent.com/PhongGuy/css-styles/main/dist/tf2center.com-dark.user.css
 
@@ -217,6 +217,9 @@
   }
 
   #info-bar ul li,
+  .lobbyHeaderOptions,
+  .lobbyHeaderOptions a,
+  .lobbyHeaderOptions a:visited,
   .playerTopMenu ul a,
   .playerTopMenu ul a:visited,
   .playerTopName,
@@ -392,6 +395,6 @@
   }
 
   .lobbyVoteCreate .label:after {
-    content: " lobbie";
+    content: " lobby";
   }
 }
