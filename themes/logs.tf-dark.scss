@@ -2,7 +2,7 @@
 @name         Logs.tf Dark
 @namespace    PhongGuy
 @author       PhongGuy
-@version      1.0.1
+@version      1.0.2
 @homepageURL  https://github.com/PhongGuy/css-styles
 @updateURL    https://raw.githubusercontent.com/PhongGuy/css-styles/main/dist/logs.tf-dark.user.css
 ==/UserStyle== */
@@ -313,5 +313,9 @@
 
   .table-players {
     width: 100%;
+  }
+
+  .log-classes.classes {
+    display: flex;
   }
 }
