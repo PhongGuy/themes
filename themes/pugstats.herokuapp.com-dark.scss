@@ -1,0 +1,14 @@
+/*! ==UserStyle==
+@name         Pugstats Dark
+@namespace    PhongGuy
+@author       PhongGuy
+@version      1.0.0
+@homepageURL  https://github.com/PhongGuy/css-styles
+@updateURL    https://raw.githubusercontent.com/PhongGuy/css-styles/main/dist/logs.tf-dark.user.css
+==/UserStyle== */
+@-moz-document domain("pugstats.herokuapp.com") {
+  body {
+    background-color: #121212!important;
+    color: rgb(190,190,190)!important;
+  }
+}

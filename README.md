@@ -25,6 +25,8 @@ Then install the one you want. Supports automatic updates.
 
 📦 [Logs.tf Dark](https://raw.githubusercontent.com/PhongGuy/css-styles/main/dist/logs.tf-dark.user.css)
 
+📦 [Pugstats Dark](https://raw.githubusercontent.com/PhongGuy/css-styles/main/dist/pugstats.herokuapp.com-dark.user.css)
+
 🦺 [Material.io Dark](https://raw.githubusercontent.com/PhongGuy/css-styles/main/dist/material.io-dark.user.css)
 
-<!-- sass themes/tf2center.com-dark.scss dist/tf2center.com-dark.user.css --no-source-map --watch --style compressed -->
+<!-- sass themes/pugstats.herokuapp.com-dark.scss dist/pugstats.herokuapp.com-dark.user.css --no-source-map --watch --style compressed -->
