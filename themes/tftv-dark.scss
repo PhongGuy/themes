@@ -2,7 +2,7 @@
 @name         TeamFortress.tv Dark
 @namespace    PhongGuy
 @author       PhongGuy
-@version      2.0.1
+@version      2.0.2
 @homepageURL  https://github.com/PhongGuy/css-styles
 @updateURL    https://raw.githubusercontent.com/PhongGuy/css-styles/main/dist/tftv-dark.user.css
 ==/UserStyle== */
@@ -150,7 +150,7 @@
   .module-filter-menu,
   .module-item-title-sub,
   .stream-name {
-    color: rgb(210 210 210) !important;
+    color: rgb(210, 210, 210) !important;
   }
 
   .game-switch.active:after {
@@ -158,6 +158,6 @@
   }
 
   .photo-thumb-mask {
-    background: rgb(0 0 0 / 20%);
+    background: rgba(0, 0, 0, .2);
   }
 }

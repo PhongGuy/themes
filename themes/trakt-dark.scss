@@ -2,7 +2,7 @@
 @name         Trakt.tv Dark
 @namespace    PhongGuy
 @author       PhongGuy
-@version      2.0.1
+@version      2.0.2
 @homepageURL  https://github.com/PhongGuy/css-styles
 @updateURL    https://raw.githubusercontent.com/PhongGuy/css-styles/main/dist/trakt-dark.user.css
 ==/UserStyle== */
@@ -795,9 +795,9 @@
   }
 
   body .comment-wrapper .comment-text[data-readmore][aria-expanded=false] .shade {
-    background-image: -webkit-linear-gradient(top,rgb(41 41 41 / 0%) 0%,rgb(41 41 41) 100%);
+    background-image: -webkit-linear-gradient(top,rgba(41, 41, 41, 0) 0%,rgba(41, 41, 41, 1));
     background-image: -o-linear-gradient(top,rgba(41,41,41,0) 0%,#292929 100%);
-    background-image: linear-gradient(to bottom,rgb(41 41 41 / 0%) 0%,rgb(41 41 41) 100%);
+    background-image: linear-gradient(to bottom,rgba(41, 41, 41, 0) 0%,rgba(41, 41, 41, 1));
     background-repeat: repeat-x;
   }
 
