@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "node-sass --watch themes -o dist --output-style compressed",
-    "build": "node -e \"require('fs').readdir('./dist',(s,e)=>{for(const s of e)s.includes('user.css')||require('fs').rename('./dist/'+s,'./dist/'+s.replace('css','user.css'),function(s){s&&console.log(s)})});\""
+    "build": "node ./build.js",
+    "new": "node ./new.js"
   },
   "repository": {
     "type": "git",

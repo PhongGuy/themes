@@ -29,4 +29,10 @@ Then install the one you want. Supports automatic updates.
 
 🦺 [Material.io Dark](https://raw.githubusercontent.com/PhongGuy/css-styles/main/dist/material.io-dark.user.css)
 
-<!-- sass themes/pugstats.herokuapp.com-dark.scss dist/pugstats.herokuapp.com-dark.user.css --no-source-map --watch --style compressed -->
+## Making one
+
+New theme `npm run new github.com-dark` so github.com is the domain and dark is the theme.
+
+When you edit you run `npm run start`
+
+Before publish run `npm run build`
