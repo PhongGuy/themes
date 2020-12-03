@@ -1,0 +1,23 @@
+{
+  "name": "css-styles",
+  "version": "1.0.0",
+  "description": "A userstyle manager is required, common ones include:",
+  "main": "index.js",
+  "scripts": {
+    "start": "node-sass --watch themes -o dist --output-style compressed",
+    "build": "node -e \"require('fs').readdir('./dist',(s,e)=>{for(const s of e)s.includes('user.css')||require('fs').rename('./dist/'+s,'./dist/'+s.replace('css','user.css'),function(s){s&&console.log(s)})});\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PhongGuy/css-styles.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PhongGuy/css-styles/issues"
+  },
+  "homepage": "https://github.com/PhongGuy/css-styles#readme",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
