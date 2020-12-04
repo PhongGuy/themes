@@ -8,9 +8,9 @@ fs.readdir(dist, (e, files) => {
 
         // check for comments that are bindings
         const data = fs.readFileSync(path, { encoding: 'utf8', flag: 'r' });
-        if (data.includes('/*![[')) {
+        if (data.includes('/*![[') || data.includes('/*! ==')) {
             console.log("\x1b[33m", 'Fixing bindings...')
-            var replaced = data.replace('/*![[', '/*[[');
+            var replaced = data.replace('/*![[', '/*[[').replace('/*! ==', '/* ==');
             // after replacing sendt it back
             fs.writeFileSync(path, replaced);
         }
