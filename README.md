@@ -27,6 +27,8 @@ Then install the one you want. Supports automatic updates.
 
 📦 [Pugstats Dark](https://raw.githubusercontent.com/PhongGuy/css-styles/main/dist/pugstats.herokuapp.com-dark.user.css)
 
+📦 [dbdiagram.io Dark](https://raw.githubusercontent.com/PhongGuy/css-styles/main/dist/dbdiagram.io-dark.user.css)
+
 🦺 [Material.io Dark](https://raw.githubusercontent.com/PhongGuy/css-styles/main/dist/material.io-dark.user.css)
 
 ## Making one
