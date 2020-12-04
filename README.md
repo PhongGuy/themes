@@ -17,11 +17,11 @@ Then install the one you want. Supports automatic updates.
 
 <br>
 
-📦 [Trakt.tv Dark](https://raw.githubusercontent.com/PhongGuy/css-styles/main/dist/trakt-dark.user.css)
+📦 [trakt.tv Dark](https://raw.githubusercontent.com/PhongGuy/css-styles/main/dist/trakt-dark.user.css)
 
-📦 [TeamFortress.tv Dark](https://raw.githubusercontent.com/PhongGuy/css-styles/main/dist/tftv-dark.user.css)
+📦 [teamfortress.tv Dark](https://raw.githubusercontent.com/PhongGuy/css-styles/main/dist/tftv-dark.user.css)
 
-📦 [Tf2center.com Dark](https://raw.githubusercontent.com/PhongGuy/css-styles/main/dist/tf2center.com-dark.user.css)
+📦 [tf2center.com Dark](https://raw.githubusercontent.com/PhongGuy/css-styles/main/dist/tf2center.com-dark.user.css)
 
 📦 [Logs.tf Dark](https://raw.githubusercontent.com/PhongGuy/css-styles/main/dist/logs.tf-dark.user.css)
 
@@ -29,7 +29,9 @@ Then install the one you want. Supports automatic updates.
 
 📦 [dbdiagram.io Dark](https://raw.githubusercontent.com/PhongGuy/css-styles/main/dist/dbdiagram.io-dark.user.css)
 
-🦺 [Material.io Dark](https://raw.githubusercontent.com/PhongGuy/css-styles/main/dist/material.io-dark.user.css)
+📦 [themoviedb.org Dark](https://raw.githubusercontent.com/PhongGuy/css-styles/main/dist/themoviedb.org-dark.user.css)
+
+🦺 [material.io Dark](https://raw.githubusercontent.com/PhongGuy/css-styles/main/dist/material.io-dark.user.css)
 
 ## Making one
 
