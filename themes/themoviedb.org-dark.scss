@@ -2,7 +2,7 @@
 @name         themoviedb.org Dark
 @namespace    PhongGuy
 @author       PhongGuy
-@version      1.0.1
+@version      1.0.2
 @homepageURL  https://github.com/PhongGuy/css-styles
 @updateURL    https://raw.githubusercontent.com/PhongGuy/css-styles/main/dist/themoviedb.org-dark.user.css
 ==/UserStyle== */
@@ -15,11 +15,17 @@
   $popup-hover: rgba(255,255,255,.1)!important;
 
   h1,
+  h1 a,
   h2,
+  h2 a,
   h3,
+  h3 a,
   h4,
+  h4 a,
   h5,
-  h6 {
+  h5 a,
+  h6,
+  h6 a {
     color: $text-highlight;
   }
 
@@ -32,15 +38,40 @@
     }
   }
 
-  p {
+  table.changes_with_aggregates span.language {
+    color: $text;
+    background-color: #000;
+  }
+
+  .k-grid,
+  body,
+  p,
+  table.changes_with_aggregates.k-grid tbody tr:hover,
+  ul.images div.info form label,
+  ul.number_group a span.count {
     color: $text;
   }
 
-  body {
-    color: $text;
+  div.diff ul li.del {
+    background-color: rgba(176, 0, 32, .4)!important;
+
+    strong {
+      background-color: rgba(176, 0, 32, .55)!important;
+    }
+    color: $text-highlight;
+  }
+
+  div.diff ul li.ins {
+    background-color: rgba(76, 175, 80, .4)!important;
+
+    strong {
+      background-color: rgba(76, 175, 80, .55)!important;
+    }
+    color: $text-highlight;
   }
 
   .card,
+  .k-grid,
   .white_column,
   .white_column ol.people li,
   div.discussion_container tr,
@@ -48,8 +79,18 @@
   div.media.movie_v4,
   div.media.person_v4,
   div.media.tv_v4,
-  main {
+  div.video.card div.info div.bg,
+  main,
+  ol.credits li,
+  table.card.releases tr,
+  ul.panel.with_counts > li:hover,
+  ul.panel.with_counts li span,
+  ul.panel.with_counts li:hover span {
     background-color: $backgound;
+  }
+
+  ul.panel.with_counts li:hover span {
+    color: inherit!important;
   }
 
   div.scroller_wrap.should_fade:after {
@@ -69,7 +110,15 @@
     background-color: $popup-hover;
   }
 
-  ol.people li.card {
+  div.content_wrapper div.leaderboard,
+  div.settings_panel,
+  div.video.card div.info,
+  div.video.card div.info div.bg,
+  div.video.card.default,
+  ol.people li.card,
+  section.inner_content ul.images li.card,
+  section.inner_content ul.images.backdrops li.compact,
+  table {
     border: none!important;
   }
 
