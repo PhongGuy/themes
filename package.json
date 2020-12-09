@@ -4,7 +4,6 @@
   "description": "A userstyle manager is required, common ones include:",
   "main": "index.js",
   "scripts": {
-    "start": "node-sass --watch themes -o dist --output-style compressed",
     "build": "node ./build.js",
     "new": "node ./new.js"
   },
@@ -18,7 +17,9 @@
     "url": "https://github.com/PhongGuy/css-styles/issues"
   },
   "homepage": "https://github.com/PhongGuy/css-styles#readme",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
+    "colors": "^1.4.0",
     "node-sass": "^5.0.0"
   }
 }
