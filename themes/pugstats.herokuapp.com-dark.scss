@@ -2,13 +2,31 @@
 @name         Pugstats Dark
 @namespace    PhongGuy
 @author       PhongGuy
-@version      1.0.0
+@version      1.0.1
 @homepageURL  https://github.com/PhongGuy/css-styles
 @updateURL    https://raw.githubusercontent.com/PhongGuy/css-styles/main/dist/pugstats.herokuapp.com-dark.user.css
 ==/UserStyle== */
 @-moz-document domain("pugstats.herokuapp.com") {
+  $backgound: #121212!important;
+  $text: rgb(170,170,170)!important;
+  $link: #3f51b5!important;
+  $text-highlight: rgb(255,255,255)!important;
+  $popup-background: rgba(33,33,33,.98)!important;
+  $popup-hover: rgba(255,255,255,.1)!important;
+
   body {
-    background-color: #121212!important;
-    color: rgb(190,190,190)!important;
+    background-color: $backgound;
+    color: $text;
   }
+
+  a {
+    &:-webkit-any(:link) {
+      color: $text;
+    }
+
+    &.router-link-active {
+      color: $text-highlight;
+    }
+  }
+
 }
