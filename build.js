@@ -35,17 +35,17 @@ fs.readdir(dist, (e, files) => {
             console.log('Checking for updates...'.yellow);
             const changes = exec('git status dist --porcelain', { encoding: 'utf8' });
             if (changes.includes(path)) {
-                // console.log('Change detected: Updating version number...'.cyan);
+                console.log('Change detected: Updating version number...'.cyan);
 
-                // const oldV = version.join('.');
-                // version[2]++;
-                // console.log('Version changed'.yellow, `${oldV}`.cyan, '>>'.yellow, `${version.join('.')}`.cyan);
+                const oldV = version.join('.');
+                version[2]++;
+                console.log('Version changed'.yellow, `${oldV}`.cyan, '>>'.yellow, `${version.join('.')}`.cyan);
 
-                // const themeChange = themeFile.replace(oldV, version.join('.'));
-                // fs.writeFileSync(themePath, themeChange);
+                const themeChange = themeFile.replace(oldV, version.join('.'));
+                fs.writeFileSync(themePath, themeChange);
 
-                // change = change.replace(oldV, version.join('.'));
-                // fs.writeFileSync(path, change);
+                change = change.replace(oldV, version.join('.'));
+                fs.writeFileSync(path, change);
             }
 
             console.log('Done\n'.green);
