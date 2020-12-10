@@ -33,6 +33,8 @@ Then install the one you want. Supports automatic updates.
 
 🦺 [material.io Dark](https://raw.githubusercontent.com/PhongGuy/css-styles/main/dist/material.io-dark.user.css)
 
+🦺 [npmjs.com Dark](https://raw.githubusercontent.com/PhongGuy/css-styles/main/dist/npmjs.com-dark.user.css)
+
 ## Making one
 
 New theme `npm run new github.com-dark` so github.com is the domain and dark is the theme.
