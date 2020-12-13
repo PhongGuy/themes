@@ -7,40 +7,13 @@
 @updateURL    https://raw.githubusercontent.com/PhongGuy/css-styles/main/dist/pugstats.herokuapp.com-dark.user.css
 ==/UserStyle== */
 @-moz-document domain("pugstats.herokuapp.com") {
-  $backgound: #121212!important;
-  $text: rgb(170,170,170)!important;
-  $link: #3f51b5!important;
-  $text-highlight: rgb(255,255,255)!important;
-  $popup-background: rgba(33,33,33,.98)!important;
-  $popup-hover: rgba(255,255,255,.1)!important;
-
-  body {
-    background-color: $backgound;
-    color: $text;
+  .light-theme {
+    --secondary: #080808;
+    --primary: #181818;
+    --text: #e8e8e8;
+    --banner: rgba(0,0,0,0.4);
+    --gradient-1: linear-gradient(0deg,#000,transparent);
+    --gradient-2: linear-gradient(90deg,rgba(252,92,125,0.5333333333333333),#000,rgba(52,147,230,0.5333333333333333));
+    background-color: #000;
   }
-
-  a {
-    &:-webkit-any(:link) {
-      color: $text;
-    }
-
-    &.router-link-active {
-      color: $text-highlight;
-    }
-  }
-
-  nav {
-    text-transform: capitalize;
-  }
-
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    color: $text-highlight;
-    text-transform: capitalize;
-  }
-
 }
