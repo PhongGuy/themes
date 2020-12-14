@@ -22,6 +22,10 @@
     background-color: #121212;
   }
 
+  .utility-navigation span:first-child {
+    display: none;
+  }
+
   .router-link-active,
   a[href]:hover {
     color: $text-highlight;
