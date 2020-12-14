@@ -2,7 +2,7 @@
 @name         Pugstats Dark
 @namespace    PhongGuy
 @author       PhongGuy
-@version      1.0.5
+@version      1.0.6
 @homepageURL  https://github.com/PhongGuy/css-styles
 @updateURL    https://raw.githubusercontent.com/PhongGuy/css-styles/main/dist/pugstats.herokuapp.com-dark.user.css
-==/UserStyle== */@-moz-document domain("pugstats.herokuapp.com"){.light-theme{--secondary: #080808;--primary: #181818;--text: #e8e8e8;--banner: rgba(0,0,0,0.4);--gradient-1: linear-gradient(0deg,#000,transparent);--gradient-2: linear-gradient(90deg,rgba(252,92,125,0.5333333333333333),#000,rgba(52,147,230,0.5333333333333333));background-color:#000}.main-navigation a,.players-list>div:first-child{text-transform:capitalize}}
+==/UserStyle== */@-moz-document domain("pugstats.herokuapp.com"){.light-theme{--secondary: #121212;--primary: #121212;--text: rgb(170,170,170);--banner: rgba(0,0,0,0.4);--gradient-1: linear-gradient(0deg,#121212,transparent);--gradient-2: linear-gradient(90deg,rgba(252,92,125,0.5333333333333333),#121212,rgba(52,147,230,0.5333333333333333));background-color:#121212}.router-link-active,a[href]:hover{color:#fff !important}.main-navigation a,.players-list>div:first-child{text-transform:capitalize}}
