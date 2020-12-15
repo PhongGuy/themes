@@ -8,14 +8,14 @@
 ==/UserStyle== */
 @-moz-document domain("pugstats.herokuapp.com") {
   $backgound: #121212!important;
-  $text: rgb(170,170,170)!important;
+  $text: rgb(200,200,200)!important;
   $text-highlight: rgb(255,255,255)!important;
 
   .dark-theme,
   .light-theme {
     --secondary: #121212;
     --primary: #121212;
-    --text: rgb(170,170,170);
+    --text: rgb(200,200,200);
     --banner: rgba(0,0,0,0.4);
     --gradient-1: linear-gradient(0deg,#121212,transparent);
     --gradient-2: linear-gradient(90deg,rgba(252,92,125,0.5333333333333333),#121212,rgba(52,147,230,0.5333333333333333));
