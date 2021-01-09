@@ -2,7 +2,7 @@
 @name         dbdiagram.io Dark
 @namespace    PhongGuy
 @author       PhongGuy
-@version      1.0.0
-@homepageURL  https://github.com/PhongGuy/css-styles
-@updateURL    https://raw.githubusercontent.com/PhongGuy/css-styles/main/dist/dbdiagram.io-dark.user.css
+@version      1.0.1
+@homepageURL  https://github.com/PhongGuy/themes
+@updateURL    https://raw.githubusercontent.com/PhongGuy/themes/main/dist/dbdiagram.io-dark.user.css
 ==/UserStyle== */@-moz-document domain("dbdiagram.io"){[data-theme=light]{--chart-bg-color: #44444c;--ref-color: #9b9ca4;--ref-highlight-color: #3ea8de;--field-name-color: #d7d7d9;--field-type-color: #999;--field-bg-color: #37383f;--pk-field-color: #d7d7d9;--highlight-field-color: #4b4c53;--temp-ref-color: #5d5e67;--endpoint-color: #d7d7d9;--graph-container-bg-color: #37383f;--graph-container-color: #d7d7d9;--graph-container-color-hover: #fff;--table-header-color: #222;--table-group-color: #56565e;--table-group-stroke-color: #696969;--table-group-name-color: #fbfbfb}}

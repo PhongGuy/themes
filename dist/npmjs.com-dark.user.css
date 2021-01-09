@@ -2,7 +2,7 @@
 @name         npmjs.com Dark
 @namespace    PhongGuy
 @author       PhongGuy
-@version      1.0.3
-@homepageURL  https://github.com/PhongGuy/css-styles
-@updateURL    https://raw.githubusercontent.com/PhongGuy/css-styles/main/dist/npmjs.com-dark.user.css
+@version      1.0.4
+@homepageURL  https://github.com/PhongGuy/themes
+@updateURL    https://raw.githubusercontent.com/PhongGuy/themes/main/dist/npmjs.com-dark.user.css
 ==/UserStyle== */@-moz-document domain("npmjs.com"){body{background:#121212 !important}a[href]{color:#aaa !important}a[href]:hover{color:#fff !important;opacity:1}h1,h2,h3,h4,h5,h6,input{color:#fff !important}p{color:#aaa !important}p code{background:#292929 !important}header{border:none !important;box-shadow:none !important}header div{background:#1b1b1b !important}header a svg{filter:invert(1)}header nav>ul>li>a{color:#aaa !important}header nav>ul>li>ul{background-color:rgba(33,33,33,0.98) !important}header nav>ul>li>ul>li>a{background-color:rgba(33,33,33,0.98) !important;color:#aaa !important}main:nth-child(2)>ul>li:nth-child(1):hover{background-color:rgba(255,205,58,0.2)}}
