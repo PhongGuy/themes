@@ -28,6 +28,6 @@ jobs:
           name: github-actions[bot]
           branch: main
           files: dist themes
-          repository: https://github.com/PhongGuy/css-styles
+          repository: https://github.com/PhongGuy/themes
           token: ${{ secrets.MY_SECRET_TOKEN }}
           message: automated regeneration

@@ -12,20 +12,20 @@ Install the theme you want. Supports automatic updates.
 
 ### 📦 Working themes 📦
 
-- [trakt.tv Dark](https://raw.githubusercontent.com/PhongGuy/css-styles/main/dist/trakt-dark.user.css)
-- [teamfortress.tv Dark](https://raw.githubusercontent.com/PhongGuy/css-styles/main/dist/tftv-dark.user.css)
-- [tf2center.com Dark](https://raw.githubusercontent.com/PhongGuy/css-styles/main/dist/tf2center.com-dark.user.css)
-- [Logs.tf Dark](https://raw.githubusercontent.com/PhongGuy/css-styles/main/dist/logs.tf-dark.user.css)
-- [Pugstats Dark](https://raw.githubusercontent.com/PhongGuy/css-styles/main/dist/pugstats.herokuapp.com-dark.user.css)
-- [dbdiagram.io Dark](https://raw.githubusercontent.com/PhongGuy/css-styles/main/dist/dbdiagram.io-dark.user.css)
-- [themoviedb.org Dark](https://raw.githubusercontent.com/PhongGuy/css-styles/main/dist/themoviedb.org-dark.user.css)
+- [trakt.tv Dark](https://raw.githubusercontent.com/PhongGuy/themes/main/dist/trakt-dark.user.css)
+- [teamfortress.tv Dark](https://raw.githubusercontent.com/PhongGuy/themes/main/dist/tftv-dark.user.css)
+- [tf2center.com Dark](https://raw.githubusercontent.com/PhongGuy/themes/main/dist/tf2center.com-dark.user.css)
+- [Logs.tf Dark](https://raw.githubusercontent.com/PhongGuy/themes/main/dist/logs.tf-dark.user.css)
+- [Pugstats Dark](https://raw.githubusercontent.com/PhongGuy/themes/main/dist/pugstats.herokuapp.com-dark.user.css)
+- [dbdiagram.io Dark](https://raw.githubusercontent.com/PhongGuy/themes/main/dist/dbdiagram.io-dark.user.css)
+- [themoviedb.org Dark](https://raw.githubusercontent.com/PhongGuy/themes/main/dist/themoviedb.org-dark.user.css)
 
 ### 🦺 Themes under construction 🦺
 
 These themes are not done yet, parts might be missing.
 
-- [material.io Dark](https://raw.githubusercontent.com/PhongGuy/css-styles/main/dist/material.io-dark.user.css)
-- [npmjs.com Dark](https://raw.githubusercontent.com/PhongGuy/css-styles/main/dist/npmjs.com-dark.user.css)
+- [material.io Dark](https://raw.githubusercontent.com/PhongGuy/themes/main/dist/material.io-dark.user.css)
+- [npmjs.com Dark](https://raw.githubusercontent.com/PhongGuy/themes/main/dist/npmjs.com-dark.user.css)
 
 ## Making a new theme
 
