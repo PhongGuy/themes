@@ -27,6 +27,10 @@
     color: $text;
   }
 
+  .router-link-active {
+    color: $text-highlight;
+  }
+
   .app-header,
   .captain,
   .captains-list,
@@ -44,7 +48,7 @@
     text-transform: capitalize;
   }
 
-  a[href] {
+  a[href]:not(.router-link-active) {
     color: $text;
   }
 }
