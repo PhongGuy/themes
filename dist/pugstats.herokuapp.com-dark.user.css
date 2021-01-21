@@ -2,7 +2,7 @@
 @name         pugstats.herokuapp.com Dark
 @namespace    PhongGuy
 @author       PhongGuy
-@version      1.1.1
+@version      1.1.2
 @homepageURL  https://github.com/PhongGuy/themes
 @updateURL    https://raw.githubusercontent.com/PhongGuy/themes/main/dist/pugstats.herokuapp.com-dark.user.css
-==/UserStyle== */@-moz-document domain("pugstats.herokuapp.com"){.app-container{border:none !important}.theme-switcher{display:none !important}*{color:#aaa !important}.app-header,.captain,.captains-list,.captains-list-legend-wrapper,.player,.players-list,.players-list-legend-wrapper,body{background:#121212 !important}.captains-list-legend,.main-navigation,.players-list-legend{text-transform:capitalize}a[href]{color:#aaa !important}}
+==/UserStyle== */@-moz-document domain("pugstats.herokuapp.com"){.app-container{border:none !important}.theme-switcher{display:none !important}*{color:#aaa !important}.router-link-active{color:#fff !important}.app-header,.captain,.captains-list,.captains-list-legend-wrapper,.player,.players-list,.players-list-legend-wrapper,body{background:#121212 !important}.captains-list-legend,.main-navigation,.players-list-legend{text-transform:capitalize}a[href]:not(.router-link-active){color:#aaa !important}}
