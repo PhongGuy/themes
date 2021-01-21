@@ -1,10 +1,50 @@
 /*! ==UserStyle==
-@name         Pugstats Dark
+@name         pugstats.herokuapp.com Dark
 @namespace    PhongGuy
 @author       PhongGuy
-@version      1.0.10
+@version      1.1.0
 @homepageURL  https://github.com/PhongGuy/themes
 @updateURL    https://raw.githubusercontent.com/PhongGuy/themes/main/dist/pugstats.herokuapp.com-dark.user.css
 ==/UserStyle== */
 @-moz-document domain("pugstats.herokuapp.com") {
+  $backgound: #121212!important;
+  $text: rgb(170,170,170)!important;
+  $text-highlight: rgb(255,255,255)!important;
+  $popup-background: rgba(33,33,33,.98)!important;
+  $popup-hover: rgba(255,255,255,.1)!important;
+  $none: none!important;
+  $sidebar: #191919!important;
+
+  .app-container {
+    border: $none;
   }
+
+  .theme-switcher {
+    display: $none;
+  }
+
+  * {
+    color: $text;
+  }
+
+  .app-header,
+  .captain,
+  .captains-list,
+  .captains-list-legend-wrapper,
+  .player,
+  .players-list,
+  .players-list-legend-wrapper,
+  body {
+    background: $backgound;
+  }
+
+  .captains-list-legend,
+  .main-navigation,
+  .players-list-legend {
+    text-transform: capitalize;
+  }
+
+  a[href] {
+    color: $text;
+  }
+}
