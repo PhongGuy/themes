@@ -1,7 +1,18 @@
-$backgound: #121212!important;
-$text: rgb(170,170,170)!important;
-$text-highlight: rgb(255,255,255)!important;
-$popup-background: rgba(33,33,33,.98)!important;
-$popup-hover: rgba(255,255,255,.1)!important;
-$none: none!important;
-$sidebar: #191919!important;
+/*! ==UserStyle==
+@name         [[THEME]]
+@namespace    PhongGuy
+@author       PhongGuy
+@version      1.0.0
+@homepageURL  https://github.com/PhongGuy/themes
+@updateURL    https://raw.githubusercontent.com/PhongGuy/themes/main/dist/[[NAME]].user.css
+==/UserStyle== */
+@-moz-document domain("[[DOMAIN]]") {
+  $backgound: #121212!important;
+  $text: rgb(170,170,170)!important;
+  $text-highlight: rgb(255,255,255)!important;
+  $popup-background: rgba(33,33,33,.98)!important;
+  $popup-hover: rgba(255,255,255,.1)!important;
+  $none: none!important;
+  $sidebar: #191919!important;
+
+}
