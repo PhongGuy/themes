@@ -19,6 +19,7 @@ Install the theme you want. Supports automatic updates.
 - [Pugstats Dark](https://raw.githubusercontent.com/PhongGuy/themes/main/dist/pugstats.herokuapp.com-dark.user.css)
 - [dbdiagram.io Dark](https://raw.githubusercontent.com/PhongGuy/themes/main/dist/dbdiagram.io-dark.user.css)
 - [themoviedb.org Dark](https://raw.githubusercontent.com/PhongGuy/themes/main/dist/themoviedb.org-dark.user.css)
+- [toornament.com Dark](https://raw.githubusercontent.com/PhongGuy/themes/main/dist/toornament.com-dark.user.css)
 
 ### 🦺 Themes under construction 🦺
 
