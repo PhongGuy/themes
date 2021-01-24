@@ -46,6 +46,14 @@
   EOT;
 }
 
+@advanced dropdown highlight-row  "Highlight row on hover" {
+  No "No" <<<EOT
+  EOT;
+  Yes "Yes" <<<EOT
+  color:  rgb(255,255,255)!important;
+  EOT;
+}
+
 ==/UserStyle== */
 @-moz-document domain("pugstats.herokuapp.com") {
   $backgound: #121212!important;
@@ -92,6 +100,11 @@
   ul > li > span:nth-child(5) {
     opacity: 1;
     /*![[highlight-games]]*/
+  }
+
+  ul > li:hover > span {
+    opacity: 1;
+    /*![[highlight-row]]*/
   }
 
   .app-header,
