@@ -28,7 +28,7 @@ fs.readdir(dist, (e, files) => {
             // check for comments that are bindings
             console.log('Cleaning file...'.yellow);
             const fileRead = fs.readFileSync(path, { encoding: 'utf8', flag: 'r' });
-            var change = fileRead.replace('/*![[', '/*[[').replace('/*! ==', '/* ==');
+            var change = fileRead.replace(/\/\*!\[\[/g, '/*[[').replace(/\/\*! ==/g, '/* ==');
             change = change.substring(0, change.lastIndexOf("\n"));
             fs.writeFileSync(path, change);
 
