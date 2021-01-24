@@ -5,6 +5,38 @@
 @version      1.1.2
 @homepageURL  https://github.com/PhongGuy/themes
 @updateURL    https://raw.githubusercontent.com/PhongGuy/themes/main/dist/pugstats.herokuapp.com-dark.user.css
+
+@advanced dropdown highlight-position  "Highlight position" {
+  No "No" <<<EOT
+  EOT;
+  Yes "Yes" <<<EOT
+  color:  rgb(255,255,255)!important;
+  EOT;
+}
+
+@advanced dropdown highlight-names  "Highlight names" {
+  No "No" <<<EOT
+  EOT;
+  Yes "Yes" <<<EOT
+  color:  rgb(255,255,255)!important;
+  EOT;
+}
+
+@advanced dropdown highlight-elo  "Highlight elo" {
+  No "No" <<<EOT
+  EOT;
+  Yes "Yes" <<<EOT
+  color:  rgb(255,255,255)!important;
+  EOT;
+}
+
+@advanced dropdown highlight-change  "Highlight change" {
+  No "No" <<<EOT
+  EOT;
+  Yes "Yes" <<<EOT
+  color:  rgb(255,255,255)!important;
+  EOT;
+}
 ==/UserStyle== */
 @-moz-document domain("pugstats.herokuapp.com") {
   $backgound: #121212!important;
@@ -23,12 +55,29 @@
     display: $none;
   }
 
-  * {
-    color: $text;
-  }
-
+  .is-active,
   .router-link-active {
     color: $text-highlight;
+  }
+
+  ul > li > span:nth-child(1) {
+    opacity: 1;
+    /*![[highlight-position]]*/
+  }
+
+  ul > li > span:nth-child(2) {
+    opacity: 1;
+    /*![[highlight-names]]*/
+  }
+
+  ul > li > span:nth-child(3) {
+    opacity: 1;
+    /*![[highlight-elo]]*/
+  }
+
+  ul > li > span:nth-child(4) {
+    opacity: 1;
+    /*![[highlight-change]]*/
   }
 
   .app-header,
@@ -48,6 +97,7 @@
     text-transform: capitalize;
   }
 
+  *,
   a[href]:not(.router-link-active) {
     color: $text;
   }
