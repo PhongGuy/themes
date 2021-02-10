@@ -4,7 +4,7 @@ const exec = require('child_process').execSync;
 const dist = 'dist';
 
 console.log('Compiling SASS'.magenta);
-const SASS = exec('node-sass src/themes -o dist --output-style compressed', { encoding: 'utf8' });
+const SASS = exec('node-sass src/themes -o dist --output-style compressed  --importer node_modules/node-sass-import', { encoding: 'utf8' });
 console.log(SASS.white);
 
 fs.readdir(dist, (e, files) => {

@@ -35,3 +35,7 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+
+# ignore non user.css files in dist
+/dist/*.css
+!/dist/*user.css

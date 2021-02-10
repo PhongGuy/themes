@@ -4,7 +4,7 @@
   "description": "A userstyle manager is required, common ones include:",
   "main": "index.js",
   "scripts": {
-    "start": "node-sass --watch src/themes -o dist --output-style compressed",
+    "start": "node-sass --watch src/themes -o dist --output-style compressed  --importer node_modules/node-sass-import",
     "build": "node ./build.js",
     "new": "node ./new.js"
   },
@@ -21,6 +21,7 @@
   "dependencies": {},
   "devDependencies": {
     "colors": "^1.4.0",
-    "node-sass": "^5.0.0"
+    "node-sass": "^5.0.0",
+    "node-sass-import": "^2.0.1"
   }
 }
