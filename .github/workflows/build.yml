@@ -30,7 +30,7 @@ jobs:
           email: 41898282+github-actions[bot]@users.noreply.github.com
           name: github-actions[bot]
           branch: main
-          files: dist themes
+          files: dist src/themes
           repository: https://github.com/PhongGuy/themes
           token: ${{ secrets.MY_SECRET_TOKEN }}
           message: automated regeneration

@@ -1,5 +1,5 @@
 var fs = require('fs');
-const themes = './themes';
+const themes = './src/themes';
 const name = process.argv[2];
 const domain = name.includes('-') ? name.split('-')[0] : name;
 const split = name.split('-')[1];

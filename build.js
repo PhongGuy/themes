@@ -4,14 +4,14 @@ const exec = require('child_process').execSync;
 const dist = 'dist';
 
 console.log('Compiling SASS'.magenta);
-const SASS = exec('node-sass themes -o dist --output-style compressed', { encoding: 'utf8' });
+const SASS = exec('node-sass src/themes -o dist --output-style compressed', { encoding: 'utf8' });
 console.log(SASS.white);
 
 fs.readdir(dist, (e, files) => {
     for (const file of files) {
         const oldPath = `${dist}/${file}`;
         const path = `${dist}/${file.replace('css', 'user.css')}`;
-        const themePath = `themes/${file.replace('css', 'scss')}`;
+        const themePath = `src/themes/${file.replace('css', 'scss')}`;
 
         if (!file.includes('user.css')) {
             console.log(`Checking ${path}`.magenta);
