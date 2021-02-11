@@ -56,7 +56,7 @@
 
 ==/UserStyle== */
 @-moz-document domain("pugstats.herokuapp.com") {
-  $backgound: #121212!important;
+  $background: #121212!important;
   $text: rgb(170,170,170)!important;
   $text-highlight: rgb(255,255,255)!important;
   $popup-background: rgba(33,33,33,.98)!important;
@@ -115,7 +115,7 @@
   .players-list,
   .players-list-legend-wrapper,
   body {
-    background: $backgound;
+    background: $background;
   }
 
   .captains-list-legend,

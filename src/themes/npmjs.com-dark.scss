@@ -7,7 +7,7 @@
 @updateURL    https://raw.githubusercontent.com/PhongGuy/themes/main/dist/npmjs.com-dark.user.css
 ==/UserStyle== */
 @-moz-document domain("npmjs.com") {
-  $backgound: #121212!important;
+  $background: #121212!important;
   $text: rgb(170,170,170)!important;
   $text-highlight: rgb(255,255,255)!important;
   $popup-background: rgba(33,33,33,.98)!important;
@@ -16,7 +16,7 @@
   $header: #1b1b1b !important;
 
   body {
-    background: $backgound;
+    background: $background;
   }
 
   a[href] {

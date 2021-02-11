@@ -7,7 +7,7 @@
 @updateURL    https://raw.githubusercontent.com/PhongGuy/themes/main/dist/w3schools.com-dark.user.css
 ==/UserStyle== */
 @-moz-document domain("w3schools.com") {
-  $backgound: #121212!important;
+  $background: #121212!important;
   $text: rgb(170,170,170)!important;
   $text-highlight: rgb(255,255,255)!important;
   $popup-background: rgba(33,33,33,.98)!important;
@@ -19,7 +19,7 @@
 
   .w3-white,
   body {
-    background: $backgound;
+    background: $background;
   }
 
   h1,
@@ -90,7 +90,7 @@
     width: 100%;
 
     .w3-light-grey {
-      background: $backgound;
+      background: $background;
     }
   }
 

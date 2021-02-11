@@ -7,7 +7,7 @@
 @updateURL    https://raw.githubusercontent.com/PhongGuy/themes/main/dist/podcasts.google.com-dark.user.css
 ==/UserStyle== */
 @-moz-document domain("podcasts.google.com") {
-  $backgound: #121212!important;
+  $background: #121212!important;
   $text: rgb(170,170,170)!important;
   $text-highlight: rgb(255,255,255)!important;
   $popup-background: rgba(33,33,33,.98)!important;
@@ -16,8 +16,7 @@
   $sidebar: #191919!important;
 
   body {
-    background-color: $backgound;
-    background: $backgound;
+    background: $background;
     color: $text;
   }
 
@@ -39,7 +38,7 @@
   }
 
   .KL4X6e {
-    background: $backgound;
+    background: $background;
   }
 
   .BpVHBf,

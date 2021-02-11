@@ -7,7 +7,7 @@
 @updateURL    https://raw.githubusercontent.com/PhongGuy/themes/main/dist/toornament.com-dark.user.css
 ==/UserStyle== */
 @-moz-document domain("toornament.com"), domain("account.toornament.com") {
-  $backgound: #121212!important;
+  $background: #121212!important;
   $text: rgb(170,170,170)!important;
   $text-highlight: rgb(255,255,255)!important;
   $popup-background: rgba(33,33,33,.98)!important;
@@ -41,7 +41,7 @@
   .layout-auth,
   .layout-auth > .layout-section > .layout-block.separator > .belt > .buckle,
   .layout-front .layout-section.content {
-    background: $backgound;
+    background: $background;
     color: $text;
   }
 

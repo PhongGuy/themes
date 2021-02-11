@@ -7,7 +7,7 @@
 @updateURL    https://raw.githubusercontent.com/PhongGuy/themes/main/dist/themoviedb.org-dark.user.css
 ==/UserStyle== */
 @-moz-document domain("themoviedb.org") {
-  $backgound: #121212!important;
+  $background: #121212!important;
   $text: rgb(170,170,170)!important;
   $text-highlight: rgb(255,255,255)!important;
   $shortcut-bar: #061e32!important;
@@ -86,7 +86,7 @@
   ul.panel.with_counts > li:hover,
   ul.panel.with_counts li span,
   ul.panel.with_counts li:hover span {
-    background-color: $backgound;
+    background-color: $background;
   }
 
   ul.panel.with_counts li:hover span {
