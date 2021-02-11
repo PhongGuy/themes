@@ -25,6 +25,7 @@ Install the theme you want. Supports automatic updates.
 
 These themes are not done yet, parts might be missing.
 
+- [podcasts.google.com Dark](https://raw.githubusercontent.com/PhongGuy/themes/main/dist/podcasts.google.com-dark.user.css)
 - [material.io Dark](https://raw.githubusercontent.com/PhongGuy/themes/main/dist/material.io-dark.user.css)
 - [npmjs.com Dark](https://raw.githubusercontent.com/PhongGuy/themes/main/dist/npmjs.com-dark.user.css)
 

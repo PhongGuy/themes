@@ -1,0 +1,24 @@
+/*! ==UserStyle==
+@name         podcasts.google.com Dark
+@namespace    PhongGuy
+@author       PhongGuy
+@version      1.0.0
+@homepageURL  https://github.com/PhongGuy/themes
+@updateURL    https://raw.githubusercontent.com/PhongGuy/themes/main/dist/podcasts.google.com-dark.user.css
+==/UserStyle== */
+@-moz-document domain("podcasts.google.com") {
+  $backgound: #121212!important;
+  $text: rgb(170,170,170)!important;
+  $text-highlight: rgb(255,255,255)!important;
+  $popup-background: rgba(33,33,33,.98)!important;
+  $popup-hover: rgba(255,255,255,.1)!important;
+  $none: none!important;
+  $sidebar: #191919!important;
+
+  body {
+    background-color: $backgound;
+    background: $backgound;
+    color: $text;
+  }
+
+}
