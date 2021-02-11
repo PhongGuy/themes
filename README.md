@@ -19,13 +19,13 @@ Install the theme you want. Supports automatic updates.
 - [pugstats.herokuapp.com Dark](https://raw.githubusercontent.com/PhongGuy/themes/main/dist/pugstats.herokuapp.com-dark.user.css)
 - [dbdiagram.io Dark](https://raw.githubusercontent.com/PhongGuy/themes/main/dist/dbdiagram.io-dark.user.css)
 - [themoviedb.org Dark](https://raw.githubusercontent.com/PhongGuy/themes/main/dist/themoviedb.org-dark.user.css)
-- [toornament.com Dark](https://raw.githubusercontent.com/PhongGuy/themes/main/dist/toornament.com-dark.user.css)
+- [podcasts.google.com Dark](https://raw.githubusercontent.com/PhongGuy/themes/main/dist/podcasts.google.com-dark.user.css)
 
 ### 🦺 Themes under construction 🦺
 
 These themes are not done yet, parts might be missing.
 
-- [podcasts.google.com Dark](https://raw.githubusercontent.com/PhongGuy/themes/main/dist/podcasts.google.com-dark.user.css)
+- [toornament.com Dark](https://raw.githubusercontent.com/PhongGuy/themes/main/dist/toornament.com-dark.user.css)
 - [material.io Dark](https://raw.githubusercontent.com/PhongGuy/themes/main/dist/material.io-dark.user.css)
 - [npmjs.com Dark](https://raw.githubusercontent.com/PhongGuy/themes/main/dist/npmjs.com-dark.user.css)
 
