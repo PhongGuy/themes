@@ -15,4 +15,9 @@
   $none: none!important;
   $sidebar: #191919!important;
 
+  body {
+    background: $background;
+    color: $text;
+  }
+
 }
