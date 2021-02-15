@@ -20,6 +20,7 @@ Install the theme you want. Supports automatic updates.
 - [dbdiagram.io Dark](https://raw.githubusercontent.com/PhongGuy/themes/main/dist/dbdiagram.io-dark.user.css)
 - [themoviedb.org Dark](https://raw.githubusercontent.com/PhongGuy/themes/main/dist/themoviedb.org-dark.user.css)
 - [podcasts.google.com Dark](https://raw.githubusercontent.com/PhongGuy/themes/main/dist/podcasts.google.com-dark.user.css)
+- [steamid.io Dark](https://raw.githubusercontent.com/PhongGuy/themes/main/dist/steamid.io-dark.user.css)
 
 ### 🦺 Themes under construction 🦺
 

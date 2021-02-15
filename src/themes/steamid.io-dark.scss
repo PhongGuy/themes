@@ -1,0 +1,58 @@
+/*! ==UserStyle==
+@name         steamid.io Dark
+@namespace    PhongGuy
+@author       PhongGuy
+@version      0.0.0
+@homepageURL  https://github.com/PhongGuy/themes
+@updateURL    https://raw.githubusercontent.com/PhongGuy/themes/main/dist/steamid.io-dark.user.css
+==/UserStyle== */
+@-moz-document domain("steamid.io") {
+  $background: #121212!important;
+  $text: rgb(170,170,170)!important;
+  $text-highlight: rgb(255,255,255)!important;
+  $popup-background: rgba(33,33,33,.98)!important;
+  $popup-hover: rgba(255,255,255,.1)!important;
+  $none: none!important;
+  $sidebar: #191919!important;
+
+  .container,
+  .navbar-default,
+  .panel-body,
+  body,
+  header,
+  nav {
+    background: $background;
+    color: $text;
+  }
+
+  .form-control,
+  .form-control:focus {
+    background: $popup-background;
+    border: $none;
+    color: $text-highlight;
+  }
+
+  a[href]:hover,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: $text-highlight;
+  }
+
+  .panel-default > .panel-heading {
+    color: $text-highlight;
+    background: $background;
+  }
+
+  .panel-footer {
+    display: $none;
+  }
+
+  .panel,
+  .panel-heading {
+    border: $none;
+  }
+}
