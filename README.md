@@ -21,6 +21,7 @@ Install the theme you want. Supports automatic updates.
 - [themoviedb.org Dark](https://raw.githubusercontent.com/PhongGuy/themes/main/dist/themoviedb.org-dark.user.css)
 - [podcasts.google.com Dark](https://raw.githubusercontent.com/PhongGuy/themes/main/dist/podcasts.google.com-dark.user.css)
 - [steamid.io Dark](https://raw.githubusercontent.com/PhongGuy/themes/main/dist/steamid.io-dark.user.css)
+- [rank.tf Dark](https://raw.githubusercontent.com/PhongGuy/themes/main/dist/rank.tf-dark.user.css)
 
 ### 🦺 Themes under construction 🦺
 
