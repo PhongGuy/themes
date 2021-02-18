@@ -1,0 +1,8 @@
+/* ==UserStyle==
+@name         rank.tf Dark
+@namespace    PhongGuy
+@author       PhongGuy
+@version      0.0.1
+@homepageURL  https://github.com/PhongGuy/themes
+@updateURL    https://raw.githubusercontent.com/PhongGuy/themes/main/dist/rank.tf-dark.user.css
+==/UserStyle== */@-moz-document domain("rank.tf"){.table,.table.is-striped tbody tr:not(.is-selected):nth-child(even),body,html,tbody{background:#121212 !important;color:#aaa !important}#loading_screen,.navbar,.navbar-dropdown,.navbar-item{background:#191919 !important;color:#aaa !important}.navbar-link{color:#aaa !important}.navbar-link:hover{color:#fff !important}.input,.select select,.textarea{border:none !important;background:rgba(33,33,33,0.98) !important;color:#fff !important}strong{color:#efefef !important}.pagination-link,.pagination-next,.pagination-previous{border:none !important;color:#fff !important}.card-header-title,.title,a[href]:hover,h1,h2,h3,h4,h5,h6,th{color:#fff !important}[src="/img/class_demo.png"],[src="/img/class_engie.png"],[src="/img/class_heavy.png"],[src="/img/class_medic.png"],[src="/img/class_pocket.png"],[src="/img/class_pyro.png"],[src="/img/class_roamer.png"],[src="/img/class_scout.png"],[src="/img/class_sniper.png"],[src="/img/class_soldier.png"],[src="/img/class_spy.png"],[src="/img/logo_symbol_black.png"],[src="img/class_demo.png"],[src="img/class_engie.png"],[src="img/class_heavy.png"],[src="img/class_medic.png"],[src="img/class_pocket.png"],[src="img/class_pyro.png"],[src="img/class_roamer.png"],[src="img/class_scout.png"],[src="img/class_sniper.png"],[src="img/class_soldier.png"],[src="img/class_spy.png"]{filter:invert(1)}.table.is-hoverable.is-striped tbody tr:not(.is-selected):hover{background:none}.card{background:#191919;color:#aaa !important}}
