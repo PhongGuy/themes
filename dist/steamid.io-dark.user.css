@@ -1,0 +1,8 @@
+/* ==UserStyle==
+@name         steamid.io Dark
+@namespace    PhongGuy
+@author       PhongGuy
+@version      0.0.1
+@homepageURL  https://github.com/PhongGuy/themes
+@updateURL    https://raw.githubusercontent.com/PhongGuy/themes/main/dist/steamid.io-dark.user.css
+==/UserStyle== */@-moz-document domain("steamid.io"){.container,.navbar-default,.panel-body,body,header,nav{background:#121212 !important;color:#aaa !important}.form-control,.form-control:focus{background:rgba(33,33,33,0.98) !important;border:none !important;color:#fff !important}a[href]:hover,h1,h2,h3,h4,h5,h6{color:#fff !important}.panel-default>.panel-heading{color:#fff !important;background:#121212 !important}.panel-footer{display:none !important}.panel,.panel-heading{border:none !important}}
