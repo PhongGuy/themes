@@ -25,6 +25,18 @@
     color: $text;
   }
 
+  .navbar-item.has-dropdown:hover .navbar-link,
+  .navbar-link:hover {
+    background-color: $sidebar;
+    color: $text-highlight;
+  }
+
+  .navbar-dropdown.is-boxed {
+    border: $none;
+    box-shadow: $none;
+    background: $sidebar;
+  }
+
   #loading_screen,
   .navbar,
   .navbar-dropdown,
