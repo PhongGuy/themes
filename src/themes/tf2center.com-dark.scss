@@ -14,9 +14,20 @@
   No "No" <<<EOT
   background: #b030b7; EOT;
 }
+
+@advanced dropdown show-one-star  "Only show one star, if you have tf2 helper enabled" {
+  No "No" <<<EOT
+   EOT;
+  Yes "Yes" <<<EOT
+      width: 12px; EOT;
+}
 ==/UserStyle== */
 @-moz-document domain("tf2center.com") {
-   @import '../helpers/roboto-font';
+   @import'../helpers/roboto-font';
+
+  .rating-static {
+    /*![[show-one-star]]*/
+  }
 
   .btn.createLobby,
   .btn.createLobby:hover {
