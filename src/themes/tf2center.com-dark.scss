@@ -21,12 +21,29 @@
   Yes "Yes" <<<EOT
       width: 12px; EOT;
 }
+
+@advanced dropdown blink-mumble  "Blink mumble icon if mumble required" {
+  Yes "Yes" <<<EOT
+      -moz-animation: blink normal 1s infinite ease-in-out;
+    -webkit-animation: blink normal 1s infinite ease-in-out;
+    -ms-animation: blink normal 1s infinite ease-in-out;
+    animation: blink normal 1s infinite ease-in-out;
+     EOT;
+  No "No" <<<EOT
+   EOT;
+}
 ==/UserStyle== */
 @-moz-document domain("tf2center.com") {
-   @import'../helpers/roboto-font';
+   @import '../helpers/roboto-font';
+  @import '../helpers/blink-effect';
 
   .rating-static {
     /*![[show-one-star]]*/
+    display: inline-block;
+  }
+
+  .mumbleReq {
+    /*![[blink-mumble]]*/
     display: inline-block;
   }
 
