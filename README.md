@@ -13,7 +13,7 @@ Install the theme you want. Supports automatic updates.
 ### 📦 Working themes 📦
 
 - [trakt.tv Dark](https://raw.githubusercontent.com/PhongGuy/themes/main/dist/trakt-dark.user.css)
-- [teamfortress.tv Dark](https://raw.githubusercontent.com/PhongGuy/themes/main/dist/tftv-dark.user.css)
+- [teamfortress.tv-dark](https://raw.githubusercontent.com/PhongGuy/themes/main/dist/teamfortress.tv-dark.user.css)
 - [tf2center.com Dark](https://raw.githubusercontent.com/PhongGuy/themes/main/dist/tf2center.com-dark.user.css)
 - [logs.tf Dark](https://raw.githubusercontent.com/PhongGuy/themes/main/dist/logs.tf-dark.user.css)
 - [pugstats.herokuapp.com Dark](https://raw.githubusercontent.com/PhongGuy/themes/main/dist/pugstats.herokuapp.com-dark.user.css)
