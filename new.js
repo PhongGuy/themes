@@ -17,3 +17,9 @@ const newTheme = fs.readFileSync('./new.scss', { encoding: 'utf8', flag: 'r' })
 const file = fs.createWriteStream(`${themes}/${name}.scss`);
 file.write(newTheme);
 file.close();
+
+console.log(`adding ${themeName} to readme.md`.yellow);
+
+const readme = fs.readFileSync('./README.md', { encoding: 'utf8', flag: 'r' });
+fs.writeFileSync('./README.md', readme
+    + `\n\n- [${themeName}](https://raw.githubusercontent.com/PhongGuy/themes/main/dist/${name}.user.css)`);
