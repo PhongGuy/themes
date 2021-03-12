@@ -14,6 +14,7 @@
   $card: #484848!important;
   $none: none!important;
   $sidebar: #191919!important;
+  $blockquote: #1b1b1b!important;
 
   body {
     background: $background;
@@ -25,6 +26,7 @@
     color: $text;
   }
 
+  b,
   strong {
     color: $text-strong;
   }
@@ -37,6 +39,10 @@
   h5,
   h6 {
     color: $text-highlight;
+  }
+
+  blockquote {
+    background: $blockquote;
   }
 
 }
