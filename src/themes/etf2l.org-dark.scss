@@ -142,4 +142,20 @@
   .fix tr:nth-child(odd) {
     background: #1c1c1c;
   }
+
+  #wpadminbar {
+    background: rgba(0,0,0,0);
+
+    #wp-admin-bar-root-default {
+      display: $none;
+    }
+  }
+
+  #wrapper {
+    top: -40px!important;
+  }
+
+  #wp-admin-bar-search {
+    display: $none;
+  }
 }
