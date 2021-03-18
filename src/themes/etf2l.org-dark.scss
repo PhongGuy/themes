@@ -2,7 +2,7 @@
 @name         etf2l.org Dark
 @namespace    PhongGuy
 @author       PhongGuy
-@version      0.0.2
+@version      1.0.0
 @homepageURL  https://github.com/PhongGuy/themes
 @updateURL    https://raw.githubusercontent.com/PhongGuy/themes/main/dist/etf2l.org-dark.user.css
 ==/UserStyle== */
@@ -15,6 +15,7 @@
   $none: none!important;
   $sidebar: #191919!important;
   $blockquote: #1b1b1b!important;
+  $form-input: #262626!important;
 
   #content,
   #footer,
@@ -58,6 +59,8 @@
     border-bottom: 1px #fff solid;
   }
 
+  #update-nag,
+  .update-nag,
   blockquote,
   div#eventcontent,
   table.tablesorter tfoot tr th,
@@ -79,4 +82,52 @@
     color: $text;
   }
 
+  .postbox {
+    background: $card;
+    color: $text;
+    border: $none;
+  }
+
+  input,
+  select,
+  textarea {
+    background: $form-input;
+    color: $text;
+    border: $none;
+  }
+
+  table.widefat {
+    border: $none;
+    background-color: #212121;
+
+    .alternate,
+    td,
+    th {
+      color: $text;
+      background-color: #212121;
+    }
+  }
+
+  .widefat tr:nth-child(even) {
+    background-color: #212121;
+  }
+
+  ul#Nav {
+    border: $none;
+    background: $background;
+
+    .current-menu-item,
+    .current-menu-parent {
+      border-bottom: 1px solid orange;
+    }
+  }
+
+  #header {
+    background: $background;
+    height: 150px;
+
+    #themeSwitcher {
+      display: $none;
+    }
+  }
 }
