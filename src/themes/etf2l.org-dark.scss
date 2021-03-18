@@ -139,8 +139,17 @@
     background: $background;
   }
 
+  .fix tr.odd td,
   .fix tr:nth-child(odd) {
-    background: #1c1c1c;
+    background: #1c1c1c!important;
+  }
+
+  .fix tr.comp {
+    cursor: pointer;
+
+    td {
+      background: #252525 !important;
+    }
   }
 
   #wpadminbar {
@@ -157,5 +166,9 @@
 
   #wp-admin-bar-search {
     display: $none;
+  }
+
+  table img[alt="hide"] {
+    filter:invert(.4);
   }
 }
