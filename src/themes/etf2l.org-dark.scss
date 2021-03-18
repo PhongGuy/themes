@@ -144,11 +144,14 @@
     background: #1c1c1c!important;
   }
 
-  .fix tr.comp {
-    cursor: pointer;
+  .fix tr {
+    &.comp,
+    &.thistory {
+      cursor: pointer;
 
-    td {
-      background: #252525 !important;
+      td {
+        background: #252525 !important;
+      }
     }
   }
 
