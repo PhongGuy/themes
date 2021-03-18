@@ -15,6 +15,7 @@
   $none: none!important;
   $sidebar: #191919!important;
   $blockquote: #1b1b1b!important;
+  $form-input: #262626!important;
 
   body {
     background: $background;
@@ -43,6 +44,14 @@
 
   blockquote {
     background: $blockquote;
+  }
+
+  input,
+  select,
+  textarea {
+    background: $form-input;
+    color: $text;
+    border: $none;
   }
 
 }
