@@ -130,4 +130,16 @@
       display: $none;
     }
   }
+
+  .fix td.fix_title,
+  .fix tr td,
+  .fix tr th,
+  .fix tr.fix_title td,
+  .fix tr.fix_title th {
+    background: $background;
+  }
+
+  .fix tr:nth-child(odd) {
+    background: #1c1c1c;
+  }
 }
