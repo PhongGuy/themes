@@ -181,4 +181,12 @@
   #adminmenuwrap {
     background: $sidebar;
   }
+
+  #loginform {
+    margin-top: 30px;
+
+    input {
+      background: none!important;
+    }
+  }
 }
