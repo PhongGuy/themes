@@ -22,6 +22,7 @@ Install the theme you want. Supports automatic updates.
 - [podcasts.google.com Dark](https://raw.githubusercontent.com/PhongGuy/themes/main/dist/podcasts.google.com-dark.user.css)
 - [steamid.io Dark](https://raw.githubusercontent.com/PhongGuy/themes/main/dist/steamid.io-dark.user.css)
 - [rank.tf Dark](https://raw.githubusercontent.com/PhongGuy/themes/main/dist/rank.tf-dark.user.css)
+- [etf2l.org Dark](https://raw.githubusercontent.com/PhongGuy/themes/main/dist/etf2l.org-dark.user.css)
 
 ### 🦺 Themes under construction 🦺
 
@@ -30,7 +31,6 @@ These themes are not done yet, parts might be missing.
 - [toornament.com Dark](https://raw.githubusercontent.com/PhongGuy/themes/main/dist/toornament.com-dark.user.css)
 - [material.io Dark](https://raw.githubusercontent.com/PhongGuy/themes/main/dist/material.io-dark.user.css)
 - [npmjs.com Dark](https://raw.githubusercontent.com/PhongGuy/themes/main/dist/npmjs.com-dark.user.css)
-- [etf2l.org Dark](https://raw.githubusercontent.com/PhongGuy/themes/main/dist/etf2l.org-dark.user.css)
 
 ## Making a new theme
 
