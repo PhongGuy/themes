@@ -123,7 +123,7 @@
   }
 
   #header {
-    background: $background;
+    filter: brightness(.85);
     height: 150px;
 
     #themeSwitcher {
@@ -170,5 +170,12 @@
 
   table img[alt="hide"] {
     filter:invert(.4);
+  }
+
+  #adminmenu,
+  #adminmenu .wp-submenu,
+  #adminmenuback,
+  #adminmenuwrap {
+    background: $sidebar;
   }
 }
