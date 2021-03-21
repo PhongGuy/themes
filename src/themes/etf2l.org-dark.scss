@@ -189,4 +189,9 @@
       background: none!important;
     }
   }
+
+  a[href] > b,
+  a[href] > strong {
+    color: #e68624!important;
+  }
 }
