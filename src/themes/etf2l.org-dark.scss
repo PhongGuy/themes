@@ -140,10 +140,11 @@
     background: $background;
   }
 
-  #recs tr:nth-child(odd) td,
-  .fix tr.odd td,
-  .fix tr:nth-child(odd) {
-    background: #1c1c1c!important;
+  table {
+    tr:nth-child(odd),
+    tr:nth-child(odd) td {
+      background: #1c1c1c!important;
+    }
   }
 
   .fix tr {
@@ -199,5 +200,29 @@
 
   .matchround {
     color: rgba(255,255,255,.75);
+  }
+
+  .cup {
+    table {
+      margin-top: 40px;
+
+      th {
+        color: $text-highlight;
+      }
+
+      td,
+      tr td,
+      tr th {
+        background: $background;
+      }
+    }
+  }
+
+  .cleft {
+    border-left: 1px solid #fff;
+  }
+
+  .ctop {
+    border-top: 1px solid #fff;
   }
 }
