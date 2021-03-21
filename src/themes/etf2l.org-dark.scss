@@ -195,6 +195,9 @@
 
   a[href] > b,
   a[href] > strong {
+    &:hover {
+      color: $text-highlight;
+    }
     color: #e68624!important;
   }
 
