@@ -140,6 +140,7 @@
     background: $background;
   }
 
+  #recs tr:nth-child(odd) td,
   .fix tr.odd td,
   .fix tr:nth-child(odd) {
     background: #1c1c1c!important;
