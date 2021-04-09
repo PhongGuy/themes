@@ -2,7 +2,7 @@
 @name         teamfortress.tv Dark
 @namespace    PhongGuy
 @author       PhongGuy
-@version      0.0.1
+@version      2.1.1
 @homepageURL  https://github.com/PhongGuy/themes
 @updateURL    https://raw.githubusercontent.com/PhongGuy/themes/main/dist/teamfortress.tv-dark.user.css
 ==/UserStyle== */
@@ -186,6 +186,10 @@
     color: rgb(210, 210, 210) !important;
   }
 
+  .forum-header span {
+    color: $text-highlight;
+  }
+
   .game-switch.active:after {
     content: none;
   }
@@ -194,4 +198,28 @@
     background: rgba(0, 0, 0, .2);
   }
 
+  .thread-frag-btn.clicked {
+    color: $text-highlight;
+
+    &.plus {
+      background: #3a7e4b!important;
+    }
+
+    &.minus {
+      background: #9b4848!important;
+    }
+  }
+
+  .vs-info {
+    color: #fff;
+  }
+
+  .game-stats th {
+    color: $text-highlight;
+
+  }
+
+  .game-switch {
+    background: #1d1d1d !important;
+  }
 }
