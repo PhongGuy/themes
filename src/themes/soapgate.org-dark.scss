@@ -7,7 +7,7 @@
 @updateURL    https://raw.githubusercontent.com/PhongGuy/themes/main/dist/soapgate.org-dark.user.css
 ==/UserStyle== */
 @-moz-document domain("soapgate.org"), domain("soap2day.to"), domain("soap2day.im"), domain("soap2day.ac"), domain("soap2day.se"), domain("s2dfree.to"), domain("s2dfree.in"), domain("s2dfree.nl"), domain("s2dfree.cc"), domain("s2dfree.de") {
-   @import '../helpers/roboto-font';
+   @import'../helpers/roboto-font';
 
   $background: #121212!important;
   $surface: #1d1d1d!important;
@@ -46,5 +46,19 @@
   h5,
   h6 {
     color: $text-high-emphasis;
+  }
+
+  .alert-info,
+  .alert-warning,
+  .panel,
+  .panel-info,
+  .thumbnail {
+    border: none;
+    background: $surface;
+  }
+
+  .alert-warning {
+    border-left: 2px solid;
+    border-radius: 0;
   }
 }
