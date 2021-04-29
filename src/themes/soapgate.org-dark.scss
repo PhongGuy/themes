@@ -1,0 +1,50 @@
+/*! ==UserStyle==
+@name         soapgate.org Dark
+@namespace    PhongGuy
+@author       PhongGuy
+@version      0.0.0
+@homepageURL  https://github.com/PhongGuy/themes
+@updateURL    https://raw.githubusercontent.com/PhongGuy/themes/main/dist/soapgate.org-dark.user.css
+==/UserStyle== */
+@-moz-document domain("soapgate.org"), domain("soap2day.to"), domain("soap2day.im"), domain("soap2day.ac"), domain("soap2day.se"), domain("s2dfree.to"), domain("s2dfree.in"), domain("s2dfree.nl"), domain("s2dfree.cc"), domain("s2dfree.de") {
+   @import '../helpers/roboto-font';
+
+  $background: #121212!important;
+  $surface: #1d1d1d!important;
+
+  $primary: #BB86FC!important;
+  $secondary: #03DaC6!important;
+  $error: #CF6679!important;
+
+  $on-primary: #000000!important;
+  $on-secondary: #000000!important;
+
+  // When light text appears on dark backgrounds (shown here as white on black) it should use the following opacity levels:
+  $text-high-emphasis: rgba(255, 255, 255, .87)!important;
+  $text-medium-emphasis: rgba(255, 255, 255, .60)!important;
+  $text-disabled: rgba(255, 255, 255, .38)!important;
+
+  body {
+    background: $background;
+    color: $text-medium-emphasis;
+  }
+
+  li,
+  p {
+    color: $text-medium-emphasis;
+  }
+
+  b,
+  strong {
+    color: $text-high-emphasis;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: $text-high-emphasis;
+  }
+}

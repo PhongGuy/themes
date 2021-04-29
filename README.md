@@ -31,6 +31,7 @@ These themes are not done yet, parts might be missing.
 - [toornament.com Dark](https://raw.githubusercontent.com/PhongGuy/themes/main/dist/toornament.com-dark.user.css)
 - [material.io Dark](https://raw.githubusercontent.com/PhongGuy/themes/main/dist/material.io-dark.user.css)
 - [npmjs.com Dark](https://raw.githubusercontent.com/PhongGuy/themes/main/dist/npmjs.com-dark.user.css)
+- [soapgate.org Dark](https://raw.githubusercontent.com/PhongGuy/themes/main/dist/soapgate.org-dark.user.css)
 
 ## Making a new theme
 
