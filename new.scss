@@ -7,51 +7,44 @@
 @updateURL    https://raw.githubusercontent.com/PhongGuy/themes/main/dist/[[NAME]].user.css
 ==/UserStyle== */
 @-moz-document domain("[[DOMAIN]]") {
+   @import '../helpers/roboto-font';
+
   $background: #121212!important;
-  $text: rgb(170,170,170)!important;
-  $text-strong: rgb(210,210,210)!important;
-  $text-highlight: rgb(255,255,255)!important;
-  $card: #484848!important;
-  $none: none!important;
-  $sidebar: #191919!important;
-  $blockquote: #1b1b1b!important;
-  $form-input: #262626!important;
+  $surface: #1d1d1d!important;
+
+  $primary: #BB86FC!important;
+  $secondary: #03DaC6!important;
+  $error: #CF6679!important;
+
+  $on-primary: #000000!important;
+  $on-secondary: #000000!important;
+
+  // When light text appears on dark backgrounds (shown here as white on black) it should use the following opacity levels:
+  $text-high-emphasis: rgba(255, 255, 255, .87)!important;
+  $text-medium-emphasis: rgba(255, 255, 255, .60)!important;
+  $text-disabled: rgba(255, 255, 255, .38)!important;
 
   body {
     background: $background;
-    color: $text;
+    color: $text-medium-emphasis;
   }
 
   li,
   p {
-    color: $text;
+    color: $text-medium-emphasis;
   }
 
   b,
   strong {
-    color: $text-strong;
+    color: $text-high-emphasis;
   }
 
-  a[href]:hover,
   h1,
   h2,
   h3,
   h4,
   h5,
   h6 {
-    color: $text-highlight;
+    color: $text-high-emphasis;
   }
-
-  blockquote {
-    background: $blockquote;
-  }
-
-  input,
-  select,
-  textarea {
-    background: $form-input;
-    color: $text;
-    border: $none;
-  }
-
 }
