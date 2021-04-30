@@ -16,8 +16,7 @@
   $secondary: #ff4081!important;
   $error: #f44336!important;
 
-  $on-primary: #000000!important;
-  $on-secondary: #000000!important;
+  $input: rgba(255, 255, 255, .07)!important;
 
   // When light text appears on dark backgrounds (shown here as white on black) it should use the following opacity levels:
   $text-high-emphasis: rgba(255, 255, 255, .87)!important;
@@ -45,6 +44,11 @@
   h4,
   h5,
   h6 {
+    color: $text-high-emphasis;
+  }
+
+  input {
+    background: $input;
     color: $text-high-emphasis;
   }
 }
