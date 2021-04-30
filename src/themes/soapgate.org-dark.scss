@@ -2,22 +2,21 @@
 @name         soapgate.org Dark
 @namespace    PhongGuy
 @author       PhongGuy
-@version      0.0.2
+@version      0.1.2
 @homepageURL  https://github.com/PhongGuy/themes
 @updateURL    https://raw.githubusercontent.com/PhongGuy/themes/main/dist/soapgate.org-dark.user.css
 ==/UserStyle== */
 @-moz-document domain("soapgate.org"), domain("soap2day.to"), domain("soap2day.im"), domain("soap2day.ac"), domain("soap2day.se"), domain("s2dfree.to"), domain("s2dfree.in"), domain("s2dfree.nl"), domain("s2dfree.cc"), domain("s2dfree.de") {
-   @import'../helpers/roboto-font';
+   @import '../helpers/roboto-font';
 
   $background: #121212!important;
   $surface: #1d1d1d!important;
 
-  $primary: #BB86FC!important;
-  $secondary: #03DaC6!important;
-  $error: #CF6679!important;
+  $primary: #3f51b5!important;
+  $secondary: #ff4081!important;
+  $error: #f44336!important;
 
-  $on-primary: #000000!important;
-  $on-secondary: #000000!important;
+  $input: rgba(255, 255, 255, .07)!important;
 
   // When light text appears on dark backgrounds (shown here as white on black) it should use the following opacity levels:
   $text-high-emphasis: rgba(255, 255, 255, .87)!important;
@@ -49,8 +48,14 @@
   }
 
   .alert-info,
+  .alert-info-ex,
   .alert-warning,
+  .dropdown-menu,
+  .dropdown.open a,
+  .myp1,
+  .navbar-default,
   .panel,
+  .panel-heading,
   .panel-info,
   .thumbnail {
     border: none;
@@ -60,5 +65,59 @@
   .alert-warning {
     border-left: 2px solid;
     border-radius: 0;
+  }
+
+  .alert-info-ex {
+    color: $text-high-emphasis;
+  }
+
+  .panel-heading {
+    font-size: 30px;
+    font-weight: bold;
+    color: $text-high-emphasis;
+  }
+
+  .dropdown-menu {
+    box-shadow: 0 3px 3px 0 #000000;
+  }
+
+  a[href]:not(.btn):not(.label) {
+    color: $text-medium-emphasis;
+
+    &:hover {
+      color: $text-high-emphasis;
+      background: transparent!important;
+      text-decoration: none;
+    }
+  }
+
+  .btn,
+  a.label {
+    background: $secondary;
+
+    &.btn-primary {
+      background: $primary;
+    }
+  }
+
+  input {
+    color: $text-high-emphasis;
+    background: $input;
+    border: none!important;
+
+    &:focus {
+      box-shadow: none!important;
+    }
+  }
+
+  .pagination > li > a,
+  .pagination > li > span {
+    background: $surface;
+    border: none;
+    font-weight: bold;
+  }
+
+  .alert-info {
+    color: $text-medium-emphasis;
   }
 }
