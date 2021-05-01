@@ -125,7 +125,7 @@
 
   #header {
     filter: brightness(.85);
-    height: 150px;
+    height: 175px;
 
     #themeSwitcher {
       display: $none;
@@ -227,5 +227,15 @@
 
   .ctop {
     border-top: 1px solid #fff;
+  }
+
+  #sidebarHeader {
+    height: 165px;
+    margin-top: 5px;
+
+    .sidebarIcons {
+      top: 125px;
+      background: transparent;
+    }
   }
 }
