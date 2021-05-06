@@ -1,0 +1,55 @@
+/*! ==UserStyle==
+@name         pricerunner.com Dark
+@namespace    PhongGuy
+@author       PhongGuy
+@version      0.0.0
+@homepageURL  https://github.com/PhongGuy/themes
+@updateURL    https://raw.githubusercontent.com/PhongGuy/themes/main/dist/pricerunner.com-dark.user.css
+==/UserStyle== */
+@-moz-document domain("pricerunner.com"),domain("pricerunner.dk"),domain("pricerunner.se") {
+   @import '../helpers/roboto-font';
+
+  $background: #121212!important;
+  $surface: #1d1d1d!important;
+
+  $primary: #3f51b5!important;
+  $secondary: #ff4081!important;
+  $error: #f44336!important;
+
+  $input: rgba(255, 255, 255, .07)!important;
+
+  // When light text appears on dark backgrounds (shown here as white on black) it should use the following opacity levels:
+  $text-high-emphasis: rgba(255, 255, 255, .87)!important;
+  $text-medium-emphasis: rgba(255, 255, 255, .60)!important;
+  $text-disabled: rgba(255, 255, 255, .38)!important;
+
+  body {
+    background: $background;
+    color: $text-medium-emphasis;
+  }
+
+  li,
+  p {
+    color: $text-medium-emphasis;
+  }
+
+  b,
+  strong {
+    color: $text-high-emphasis;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: $text-high-emphasis;
+  }
+
+  input {
+    background: $input;
+    color: $text-high-emphasis;
+    border: none !important;
+  }
+}
