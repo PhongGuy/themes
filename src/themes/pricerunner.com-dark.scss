@@ -2,7 +2,7 @@
 @name         pricerunner.com Dark
 @namespace    PhongGuy
 @author       PhongGuy
-@version      0.0.1
+@version      1.0.1
 @homepageURL  https://github.com/PhongGuy/themes
 @updateURL    https://raw.githubusercontent.com/PhongGuy/themes/main/dist/pricerunner.com-dark.user.css
 ==/UserStyle== */
@@ -25,7 +25,7 @@
 
   body {
     background: $background;
-    color: $text-medium-emphasis;
+    // color: $text-medium-emphasis;
   }
 
   li,
@@ -47,9 +47,61 @@
     color: $text-high-emphasis;
   }
 
-  input {
+  input,
+  textarea {
     background: $input;
     color: $text-high-emphasis;
     border: none !important;
+  }
+
+  :root {
+    --background-page: #121212;
+    --background-primary: #1d1d1d;
+    --background-content-primary: #1d1d1d;
+    --background-secondary: #121212;
+    --ribbon-product-background: rgba(255, 255, 255, 0.1);
+    --background-content-secondary: rgba(255, 255, 255, 0.1);
+
+    // hover
+    --background-primary-hover: rgba(255,255,255,0.1);
+    --background-secondary-hover: rgba(255,255,255,0.1);
+
+    // text stuff
+    --text-primary: rgba(255, 255, 255, .87);
+    --text-secondary: rgba(255, 255, 255, .60);
+
+    // dont show this shit
+    --border20: transparent;
+    --border40: transparent;
+    --border60: transparent;
+
+    // gray scales
+    --grayscale10: rgba(255,255,255,0.1);
+    --grayscale20: rgba(255,255,255,0.2);
+    --grayscale30: rgba(255,255,255,0.3);
+    --grayscale40: rgba(255,255,255,0.4);
+    --grayscale60: rgba(255,255,255,0.6);
+    --grayscale80: rgba(255,255,255,0.8);
+    --grayscale100: rgb(255,255,255);
+
+    //shadows
+    --shadow-primary: rgb(0, 0, 0);
+  }
+
+  a,
+  button {
+    color: $text-medium-emphasis;
+
+    &:hover {
+      color: $text-high-emphasis;
+    }
+  }
+
+  div[role="list"] button {
+    border: none !important;
+
+    & > div::before {
+      border-bottom: 120px solid #1d1d1d;
+    }
   }
 }
