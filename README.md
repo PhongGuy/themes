@@ -29,6 +29,7 @@ Install the theme you want. Supports automatic updates.
 
 These themes are not done yet, parts might be missing.
 
+- [Stylus Dark](https://raw.githubusercontent.com/PhongGuy/themes/main/dist/stylus-dark.user.css)
 - [toornament.com Dark](https://raw.githubusercontent.com/PhongGuy/themes/main/dist/toornament.com-dark.user.css)
 - [material.io Dark](https://raw.githubusercontent.com/PhongGuy/themes/main/dist/material.io-dark.user.css)
 - [npmjs.com Dark](https://raw.githubusercontent.com/PhongGuy/themes/main/dist/npmjs.com-dark.user.css)
