@@ -7,7 +7,7 @@
 @updateURL    https://raw.githubusercontent.com/PhongGuy/themes/main/dist/pricerunner.com-dark.user.css
 ==/UserStyle== */
 @-moz-document domain("pricerunner.com"),domain("pricerunner.dk"),domain("pricerunner.se") {
-   @import '../helpers/roboto-font';
+   @import'../helpers/roboto-font';
 
   $background: #121212!important;
   $surface: #1d1d1d!important;
@@ -61,7 +61,10 @@
     --background-secondary: #121212;
     --ribbon-product-background: rgba(255, 255, 255, 0.1);
     --background-content-secondary: rgba(255, 255, 255, 0.1);
+
+    //band colors
     --brand10: #121212;
+    --brand40: #eb145f;
 
     // hover
     --background-primary-hover: rgba(255,255,255,0.1);
