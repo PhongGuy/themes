@@ -159,7 +159,11 @@
   }
 
   #wpadminbar {
-    background: rgba(0,0,0,0);
+    background: transparent;
+    min-width: auto;
+    right: 0;
+    left: auto;
+    width: auto;
 
     #wp-admin-bar-root-default {
       display: $none;
@@ -171,7 +175,9 @@
   }
 
   #wp-admin-bar-search {
-    display: $none;
+    form:not(.adminbar-focused) input {
+      background: transparent!important;
+    }
   }
 
   table img[alt="hide"] {
