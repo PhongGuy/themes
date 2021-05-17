@@ -47,9 +47,52 @@
     color: $text-high-emphasis;
   }
 
-  input {
+  input,
+  select {
     background: $input;
     color: $text-high-emphasis;
     border: none !important;
+
+    &[type="checkbox"] {
+      background: $secondary;
+      opacity: .7;
+
+      svg {
+        fill: $text-high-emphasis;
+      }
+    }
+  }
+
+  button {
+    background: $primary;
+    border: none;
+    border-radius: 3px;
+    color: $text-high-emphasis;
+  }
+
+  a {
+    color: $text-medium-emphasis;
+
+    &[href]:hover {
+      color: $text-high-emphasis;
+    }
+  }
+
+  .svg-icon:hover {
+    fill: $text-high-emphasis;
+  }
+
+  #message-box-buttons,
+  #message-box-contents,
+  #message-box-title {
+    background: $surface;
+  }
+
+  #message-box-buttons button:first-child {
+    background: $error;
+  }
+
+  #message-box-close-icon {
+    display: none;
   }
 }
