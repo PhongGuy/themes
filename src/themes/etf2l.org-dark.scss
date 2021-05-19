@@ -84,9 +84,13 @@
   }
 
   .postbox {
-    background: $card;
+    background: #212121;
     color: $text;
     border: $none;
+
+    table {
+      width: 100%;
+    }
   }
 
   input,
