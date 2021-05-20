@@ -47,10 +47,18 @@
     color: $text-high-emphasis;
   }
 
-  input {
+  input,
+  textarea {
     background: $input;
     color: $text-high-emphasis;
     border: none !important;
+  }
+
+  select {
+    background: rgb(35, 35, 35);
+    color: $text-high-emphasis;
+    border: none !important;
+    outline: none;
   }
 
   ::-webkit-scrollbar {
