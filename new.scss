@@ -52,4 +52,23 @@
     color: $text-high-emphasis;
     border: none !important;
   }
+
+  ::-webkit-scrollbar {
+    width: 9px;
+    height: 9px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: linear-gradient(13deg, #909090 14%,#909090 64%);
+    border-radius: 10px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(13deg, #606060 14%,#606060 64%);
+  }
+
+  ::-webkit-scrollbar-track {
+    background: transparent;
+    border-radius: 10px;
+  }
 }
