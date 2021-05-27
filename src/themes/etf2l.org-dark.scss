@@ -7,227 +7,235 @@
 @updateURL    https://raw.githubusercontent.com/PhongGuy/themes/main/dist/etf2l.org-dark.user.css
 ==/UserStyle== */
 @-moz-document domain("etf2l.org") {
-  $background: #121212!important;
-  $text: rgb(170,170,170)!important;
-  $text-strong: rgb(210,210,210)!important;
-  $text-highlight: rgb(255,255,255)!important;
-  $card: #484848!important;
-  $none: none!important;
-  $sidebar: #191919!important;
-  $blockquote: #1b1b1b!important;
-  $form-input: #262626!important;
+   @import '../helpers/roboto-font';
 
-  #content,
-  #footer,
-  #rs-discuss .fix,
-  #sidebars,
-  #wrapper,
-  .fix,
-  body,
-  div.rec,
-  div.rec_search,
-  table.tablesorter tbody td,
-  ul#eventtabs li a {
+  $background: #121212!important;
+  $surface: #1d1d1d!important;
+
+  $primary: #3f51b5!important;
+  $secondary: #ff4081!important;
+  $error: #f44336!important;
+
+  $input: rgba(255, 255, 255, .07)!important;
+
+  // When light text appears on dark backgrounds (shown here as white on black) it should use the following opacity levels:
+  $text-high-emphasis: rgba(255, 255, 255, .87)!important;
+  $text-medium-emphasis: rgba(255, 255, 255, .60)!important;
+  $text-disabled: rgba(255, 255, 255, .38)!important;
+
+  #perldoc,
+  body {
     background: $background;
-    color: $text;
-    border: $none;
+    color: $text-medium-emphasis;
+    box-shadow: none;
   }
 
   li,
   p {
-    color: $text;
+    color: $text-medium-emphasis;
   }
 
   b,
   strong {
-    color: $text-strong;
+    color: $text-high-emphasis;
   }
 
-  .clock,
-  a[href]:hover,
   h1,
   h2,
   h3,
   h4,
   h5,
-  h6,
-  ul#eventtabs li.active a {
-    color: $text-highlight;
-  }
-
-  #sidebarHeader h2,
-  h2 {
-    border-bottom: 1px #fff solid;
-  }
-
-  #update-nag,
-  .update-nag,
-  blockquote,
-  div#eventcontent,
-  table.tablesorter tfoot tr th,
-  table.tablesorter thead tr th,
-  ul#eventtabs li a {
-    background: $blockquote;
-  }
-
-  ul#eventtabs li a {
-    border-radius: 6px 6px 0 0;
-  }
-
-  table.tablesorter {
-    border: $none;
-  }
-
-  .form-table th,
-  .form-wrap label {
-    color: $text;
-  }
-
-  .postbox {
-    background: #212121;
-    color: $text;
-    border: $none;
-
-    table {
-      width: 100%;
-    }
+  h6 {
+    color: $text-high-emphasis;
+    font-weight: 600;
   }
 
   input,
-  select,
   textarea {
-    background: $form-input;
-    color: $text;
-    border: $none;
+    background: $input;
+    color: $text-high-emphasis;
+    border: none !important;
   }
 
-  table.widefat {
-    border: $none;
-    background-color: #212121;
-
-    .alternate,
-    td,
-    th {
-      color: $text;
-      background-color: #212121;
-    }
+  select {
+    background: rgb(35, 35, 35);
+    color: $text-high-emphasis;
+    border: none !important;
+    outline: none;
   }
 
-  .widefat tr:nth-child(even) {
-    background-color: #212121;
+  ::-webkit-scrollbar {
+    width: 9px;
+    height: 9px;
   }
 
-  ul#Nav {
-    border: $none;
+  ::-webkit-scrollbar-thumb {
+    background: linear-gradient(13deg, #909090 14%,#909090 64%);
+    border-radius: 10px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(13deg, #606060 14%,#606060 64%);
+  }
+
+  ::-webkit-scrollbar-track {
+    background: transparent;
+    border-radius: 10px;
+  }
+
+  #content,
+  #footer,
+  #sidebars,
+  .fix,
+  .post-wrapper,
+  .rec {
     background: $background;
+    border: none!important;
+  }
+
+  #Nav {
+    background: $surface;
+    border: none!important;
+
+    & ul > li {
+      z-index: 1;
+
+    }
 
     .current-menu-item,
     .current-menu-parent {
       border-bottom: 1px solid orange;
     }
+
+    .sub-menu {
+      border: none;
+      z-index: -1;
+      -webkit-box-shadow: 0 10px 15px 0 #000000;
+      box-shadow: 0 10px 15px 0 #000000;
+    }
+
+    ul a {
+      background: $surface;
+    }
   }
 
-  #header {
-    filter: brightness(.85);
-    height: 175px;
+  .fix tr.comp td,
+  .fix tr.thistory td {
+    background: $surface;
+    border-color: rgba(255, 255, 255, .03);
+    cursor: pointer;
 
-    #themeSwitcher {
-      display: $none;
+    img {
+      filter: invert(1);
     }
+  }
+
+  #eventcontent,
+  .breadcrumbs,
+  .post-block,
+  .postbox,
+  .postmeta {
+    background: $surface;
+    border: none!important;
+  }
+
+  .widefat {
+    background: $background;
+    border: none !important;
+
+    th {
+      background: $surface;
+      color: $text-medium-emphasis;
+    }
+
+    td {
+      background: $surface;
+      color: $text-medium-emphasis;
+    }
+
+    tr:nth-child(even) td {
+      background: rgb(40, 40, 40)!important;
+    }
+  }
+
+  .widget_table {
+    width: 100%;
+
+    tr:nth-child(even) td {
+      background: rgba(255, 255, 255, .05) !important;
+    }
+
+    a > strong {
+      color: #0073aa!important;
+    }
+  }
+
+  .tablesorter {
+    background: $background;
+    border: none !important;
+
+    th {
+      background: $surface;
+      border: none !important;
+    }
+
+    td {
+      background: $background;
+      color: $text-medium-emphasis;
+    }
+
+    tr:nth-child(even) td {
+      background: rgba(255, 255, 255, .0169)!important;
+    }
+  }
+
+  .table-list {
+    background: $background;
+    border: none !important;
+
+    th {
+      background: $surface;
+      border: none !important;
+    }
+
+    .category {
+      background: $surface;
+      border: none !important;
+      font-weight: 600;
+    }
+
+    tbody:nth-child(even) {
+      background: rgba(255, 255, 255, .0169)!important;
+    }
+
+    tbody:nth-child(odd) {
+      background: $background;
+    }
+  }
+
+  .fix tr td,
+  .fix tr th {
+    background: rgba(255, 255, 255, .0169);
   }
 
   .fix td.fix_title,
-  .fix tr td,
-  .fix tr th,
   .fix tr.fix_title td,
-  .fix tr.fix_title th {
-    background: $background;
+  .fix tr.fix_title th,
+  blockquote {
+    background: $surface;
+    color: $text-medium-emphasis;
   }
 
-  table {
-    tr:nth-child(odd),
-    tr:nth-child(odd) td {
-      background: #1c1c1c!important;
+  #eventtabs {
+    border: none!important;
+
+    a {
+      background: $surface;
     }
-  }
 
-  .fix tr {
-    &.comp,
-    &.thistory {
-      cursor: pointer;
-
-      td {
-        background: #252525 !important;
-      }
-    }
-  }
-
-  #wpadminbar {
-    background: transparent;
-    min-width: auto;
-    right: 0;
-    left: auto;
-    width: auto;
-
-    #wp-admin-bar-root-default {
-      display: $none;
-    }
-  }
-
-  #wrapper {
-    top: -40px!important;
-  }
-
-  #wp-admin-bar-search {
-    form:not(.adminbar-focused) input {
-      background: transparent!important;
-    }
-  }
-
-  table img[alt="hide"] {
-    filter:invert(.4);
-  }
-
-  #adminmenu,
-  #adminmenu .wp-submenu,
-  #adminmenuback,
-  #adminmenuwrap {
-    background: $sidebar;
-  }
-
-  #loginform {
-    margin-top: 30px;
-
-    input {
-      background: none!important;
-    }
-  }
-
-  a[href] > b,
-  a[href] > strong {
-    &:hover {
-      color: $text-highlight;
-    }
-    color: #e68624!important;
-  }
-
-  .eventcontent {
-    color: rgba(255,255,255,.75);
-  }
-
-  .cup {
-    table {
-      margin-top: 40px;
-
-      th {
-        color: $text-highlight;
-      }
-
-      td,
-      tr td,
-      tr th {
-        background: $background;
-      }
+    .active a {
+      border-bottom: 1px solid orange;
+      top: auto;
     }
   }
 
@@ -239,13 +247,53 @@
     border-top: 1px solid #fff;
   }
 
-  #sidebarHeader {
-    height: 165px;
-    margin-top: 5px;
+  #sidebarHeader h2,
+  h2 {
+    border-bottom: 1px #fff solid;
+  }
 
-    .sidebarIcons {
-      top: 125px;
-      background: transparent;
+  #wpadminbar {
+    background: transparent;
+    min-width: auto;
+    right: 0;
+    left: auto;
+    width: auto;
+
+    #wp-admin-bar-search {
+      form:not(.adminbar-focused) input {
+        background: transparent!important;
+      }
     }
+  }
+
+  #wrapper {
+    top: -32px;
+  }
+
+  #contextual-help-link-wrap,
+  #screen-options-link-wrap,
+  #themeSwitcher,
+  #update-nag,
+  .update-nag {
+    display: none;
+  }
+
+  .page-numbers {
+    padding: 2px;
+  }
+
+  a[href] > strong {
+    color: #da790b!important;
+    text-decoration: none;
+  }
+
+  a:hover > strong {
+    color: #e68624!important;
+    text-decoration: none;
+  }
+
+  .form-table th,
+  .form-wrap label {
+    color: $text-medium-emphasis;
   }
 }
