@@ -25,6 +25,31 @@
 
   body {
     font-size: 12.5px;
+
+    & > #wpadminbar {
+      background: transparent;
+      min-width: auto;
+      right: 0;
+      left: auto;
+      width: auto;
+
+      #wp-admin-bar-search {
+        form:not(.adminbar-focused) input {
+          background: transparent!important;
+        }
+      }
+
+      #wp-admin-bar-root-default {
+        display: none!important;
+      }
+    }
+
+    & > #wpwrap {
+      #wp-admin-bar-site-name .ab-sub-wrapper,
+      #wp-admin-bar-wp-logo {
+        display: none;
+      }
+    }
   }
 
   #perldoc,
@@ -254,20 +279,6 @@
   #sidebarHeader h2,
   h2 {
     border-bottom: 1px #fff solid;
-  }
-
-  #wpadminbar {
-    background: transparent;
-    min-width: auto;
-    right: 0;
-    left: auto;
-    width: auto;
-
-    #wp-admin-bar-search {
-      form:not(.adminbar-focused) input {
-        background: transparent!important;
-      }
-    }
   }
 
   #wrapper {
