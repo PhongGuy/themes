@@ -7,7 +7,7 @@
 @updateURL    https://raw.githubusercontent.com/PhongGuy/themes/main/dist/etf2l.org-dark.user.css
 ==/UserStyle== */
 @-moz-document domain("etf2l.org") {
-   @import '../helpers/roboto-font';
+   @import'../helpers/roboto-font';
 
   $background: #121212!important;
   $surface: #1d1d1d!important;
@@ -24,8 +24,6 @@
   $text-disabled: rgba(255, 255, 255, .38)!important;
 
   body {
-    font-size: 12.5px;
-
     & > #wpadminbar {
       background: transparent;
       min-width: auto;
@@ -50,6 +48,39 @@
         display: none;
       }
     }
+  }
+
+  #commentform input,
+  #commentform textarea,
+  #rs-discuss .post-block,
+  #rs-discuss .post-block-odd,
+  .commentlist li,
+  body {
+    font-size: 12.5px;
+  }
+
+  #rs-discuss .cell-activity,
+  #rs-discuss .cell-description,
+  #rs-discuss .cell-name span.desc,
+  #rs-discuss .cell-ractivity,
+  #rs-discuss .cell-recent,
+  #rs-discuss .fix,
+  #rs-discuss .page-list,
+  #rs-discuss th,
+  .calendar,
+  .commentmetadata,
+  .cup,
+  .fix,
+  .postmeta,
+  .small,
+  div.rec_search_filter,
+  p.div,
+  table.tablesorter {
+    font-size: 11px;
+  }
+
+  div.rec_search {
+    width: 115px;
   }
 
   #perldoc,
@@ -84,6 +115,7 @@
     background: $input;
     color: $text-high-emphasis;
     border: none !important;
+    font-size: 11.5px!important;
   }
 
   select {
@@ -91,6 +123,11 @@
     color: $text-high-emphasis;
     border: none !important;
     outline: none;
+  }
+
+  #sidebarHeader input {
+    background: rgba(0, 0, 0, .5)!important;
+    width: 141px;
   }
 
   ::-webkit-scrollbar {
