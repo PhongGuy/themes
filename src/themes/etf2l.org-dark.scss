@@ -196,6 +196,17 @@
     }
   }
 
+  .ui-widget-content {
+    background: $surface;
+    color: $text-medium-emphasis;
+
+    button {
+      background: $primary;
+      color: $text-high-emphasis;
+      border: none!important;
+    }
+  }
+
   #eventcontent,
   .breadcrumbs,
   .post-block,
