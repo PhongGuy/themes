@@ -7,7 +7,7 @@
 @updateURL    https://raw.githubusercontent.com/PhongGuy/themes/main/dist/etf2l.org-dark.user.css
 ==/UserStyle== */
 @-moz-document domain("etf2l.org") {
-   @import'../helpers/roboto-font';
+   @import '../helpers/roboto-font';
 
   $background: #121212!important;
   $surface: #1d1d1d!important;
@@ -359,5 +359,11 @@
   .form-table th,
   .form-wrap label {
     color: $text-medium-emphasis;
+  }
+
+  .notice,
+  div.error,
+  div.updated {
+    background: $surface;
   }
 }
