@@ -366,4 +366,21 @@
   div.updated {
     background: $surface;
   }
+
+  .parsley-error,
+  .red {
+    background: rgba(255, 0, 0, .35)!important;
+  }
+
+  .active,
+  .parsley-success {
+    background: rgba(0, 255, 0, .35)!important;
+  }
+
+  .parsley-error-list {
+    .min,
+    .required {
+      color: orange!important;
+    }
+  }
 }
