@@ -7,7 +7,7 @@
 @updateURL    https://raw.githubusercontent.com/PhongGuy/themes/main/dist/logs.tf-dark.user.css
 ==/UserStyle== */
 @-moz-document domain("logs.tf") {
-   @import '../helpers/roboto-font';
+   @import'../helpers/roboto-font';
 
   .dropdown-menu .divider,
   .popover hr {
@@ -128,10 +128,6 @@
     outline: none;
   }
 
-  .highlight {
-    background: #3a3a3a !important;
-  }
-
   .dropdown,
   .dropup {
     display: inline-flex;
@@ -147,5 +143,9 @@
 
   .log-classes.classes {
     display: flex;
+  }
+
+  table tbody .highlight:not(:first-child) {
+    background: rgba(255,255,255,.12) !important;
   }
 }
