@@ -34,6 +34,7 @@ These themes are not done yet, parts might be missing.
 - [material.io Dark](https://raw.githubusercontent.com/PhongGuy/themes/main/dist/material.io-dark.user.css)
 - [npmjs.com Dark](https://raw.githubusercontent.com/PhongGuy/themes/main/dist/npmjs.com-dark.user.css)
 - [rank.tf Dark](https://raw.githubusercontent.com/PhongGuy/themes/main/dist/rank.tf-dark.user.css)
+- [vault.bitwarden.com Dark](https://raw.githubusercontent.com/PhongGuy/themes/main/dist/vault.bitwarden.com-dark.user.css)
 
 ## Making a new theme
 
