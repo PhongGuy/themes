@@ -54,7 +54,8 @@
     border: none !important;
   }
 
-  select {
+  select,
+  select option {
     background: rgb(35, 35, 35);
     color: $text-high-emphasis;
     border: none !important;
