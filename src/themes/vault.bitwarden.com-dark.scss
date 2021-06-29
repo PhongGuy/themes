@@ -12,7 +12,7 @@
   $background: #121212!important;
   $surface: #1d1d1d!important;
 
-  $primary: #3f51b5!important;
+  $primary: #175DDC!important;
   $secondary: #ff4081!important;
   $error: #f44336!important;
 
@@ -47,6 +47,7 @@
     color: $text-high-emphasis;
   }
 
+  .form-control,
   input,
   textarea {
     background: $input;
@@ -54,7 +55,8 @@
     border: none !important;
   }
 
-  select {
+  select,
+  select option {
     background: rgb(35, 35, 35);
     color: $text-high-emphasis;
     border: none !important;
@@ -78,5 +80,53 @@
   ::-webkit-scrollbar-track {
     background: transparent;
     border-radius: 10px;
+  }
+
+  li a {
+    color: $text-high-emphasis;
+  }
+
+  li.active a {
+    color: $primary;
+  }
+
+  .card,
+  .dropdown-menu,
+  .modal-content,
+  .modal-footer {
+    background: $surface;
+    border: none!important;
+  }
+
+  .callout,
+  .list-group-item {
+    background: $surface;
+  }
+
+  .dropdown-item {
+    color: $text-medium-emphasis;
+
+    :hover {
+      color: $text-high-emphasis;
+    }
+  }
+
+  .text-danger {
+    color: $error;
+  }
+
+  .form-group button {
+    color: $text-high-emphasis;
+    border: none!important;
+    background: $input;
+  }
+
+  [src="images/totp-countdown.png"] {
+    display: none;
+  }
+
+  .table td,
+  .table th {
+    border-color: rgba(255, 255, 255, .07);
   }
 }
