@@ -55,6 +55,7 @@
     border: none !important;
   }
 
+  [type="checkbox"],
   select,
   select option {
     background: rgb(35, 35, 35);
@@ -99,7 +100,8 @@
   }
 
   .callout,
-  .list-group-item {
+  .list-group-item,
+  .progress {
     background: $surface;
   }
 
@@ -128,5 +130,38 @@
   .table td,
   .table th {
     border-color: rgba(255, 255, 255, .07);
+  }
+
+  .list-group-item,
+  .nav-item a {
+    color: $text-medium-emphasis;
+  }
+
+  .card-header,
+  .list-group-item.active,
+  .nav-item.active a {
+    color: $text-high-emphasis;
+  }
+
+  .list-group-item {
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: none;
+  }
+
+  .dropdown-item-text,
+  .table,
+  .table-hover tbody tr:hover {
+    color: $text-medium-emphasis;
+  }
+
+  .btn {
+    border: none !important;
+  }
+
+  .close {
+    color: #fff;
   }
 }
