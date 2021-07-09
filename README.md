@@ -35,6 +35,7 @@ These themes are not done yet, parts might be missing.
 - [npmjs.com Dark](https://raw.githubusercontent.com/PhongGuy/themes/main/dist/npmjs.com-dark.user.css)
 - [rank.tf Dark](https://raw.githubusercontent.com/PhongGuy/themes/main/dist/rank.tf-dark.user.css)
 - [vault.bitwarden.com Dark](https://raw.githubusercontent.com/PhongGuy/themes/main/dist/vault.bitwarden.com-dark.user.css)
+- [tf2pugs.com Dark](https://raw.githubusercontent.com/PhongGuy/themes/main/dist/tf2pugs.com-dark.user.css)
 
 ## Making a new theme
 
