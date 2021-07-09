@@ -7,7 +7,7 @@
 @updateURL    https://raw.githubusercontent.com/PhongGuy/themes/main/dist/tf2pugs.com-dark.user.css
 ==/UserStyle== */
 @-moz-document domain("tf2pugs.com") {
-   @import '../helpers/roboto-font';
+   @import'../helpers/roboto-font';
 
   $background: #121212!important;
   $surface: #1d1d1d!important;
@@ -28,8 +28,10 @@
     color: $text-medium-emphasis;
   }
 
+  .table,
   li,
-  p {
+  p,
+  table {
     color: $text-medium-emphasis;
   }
 
