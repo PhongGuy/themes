@@ -256,4 +256,12 @@
   .lobbyVoteCreate .label:after {
     content: " lobby";
   }
+
+  div.statsContainer[style] {
+    background: transparent!important;
+
+    .rating {
+      background: #9e403d;
+    }
+  }
 }
