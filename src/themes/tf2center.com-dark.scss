@@ -260,8 +260,8 @@
   div.statsContainer[style] {
     background: transparent!important;
 
-    .rating {
-      background: #9e403d;
+    .rating-static {
+      filter: invert(1);
     }
   }
 }
