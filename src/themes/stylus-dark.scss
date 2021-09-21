@@ -7,7 +7,7 @@
 @updateURL    https://raw.githubusercontent.com/PhongGuy/themes/main/dist/stylus-dark.user.css
 ==/UserStyle== */
 @-moz-document url-prefix("chrome-extension:\/\/clngdbkpkpeebahjckkjfobafhncgmne/manage.html") {
-   @import'../helpers/roboto-font';
+   @import '../helpers/roboto-font';
 
   $background: #121212!important;
   $surface: #1d1d1d!important;
@@ -112,5 +112,9 @@
 
   .style-info {
     color: $text-high-emphasis;
+  }
+
+  .newUI .can-update:not([data-details$="locally edited"]) .update:after {
+    background-color: #181818;
   }
 }
