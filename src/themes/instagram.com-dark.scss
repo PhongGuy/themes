@@ -23,19 +23,9 @@
   $text-medium-emphasis: rgba(255, 255, 255, .60)!important;
   $text-disabled: rgba(255, 255, 255, .38)!important;
 
-  body {
+  body,
+  html {
     background: $background;
-    color: $text-medium-emphasis;
-  }
-
-  li,
-  p {
-    color: $text-medium-emphasis;
-  }
-
-  b,
-  strong {
-    color: $text-high-emphasis;
   }
 
   h1,
@@ -43,23 +33,9 @@
   h3,
   h4,
   h5,
-  h6 {
-    color: $text-high-emphasis;
-  }
-
-  input,
+  h6,
   textarea {
-    background: $input;
     color: $text-high-emphasis;
-    border: none !important;
-  }
-
-  select,
-  select option {
-    background: rgb(35, 35, 35);
-    color: $text-high-emphasis;
-    border: none !important;
-    outline: none;
   }
 
   ::-webkit-scrollbar {
@@ -80,4 +56,53 @@
     background: transparent;
     border-radius: 10px;
   }
+
+  [role="main"] {
+    background: $background;
+  }
+
+  [role="tablist"] {
+    border-color: $input;
+  }
+
+  [role="presentation"] {
+    background: $surface;
+  }
+
+  a[aria-selected="true"] {
+    border-color: #5d5d5d;
+  }
+
+  nav {
+    & > div > div {
+      background: $surface;
+    }
+
+    svg > path {
+      filter: invert(1);
+    }
+  }
+
+  [alt="Instagram"],
+  [role="presentation"] [type="button"] svg > path {
+    filter: invert(1);
+  }
+
+  span {
+    color: $text-medium-emphasis;
+  }
+
+  a[href],
+  a[href] > span {
+    color: $text-high-emphasis;
+  }
+
+  // [role="dialog"] > div {
+  //   background: $surface;
+
+  //   & > div > div[style] {
+  //     filter: invert(1);
+  //   }
+  // }
+
 }
