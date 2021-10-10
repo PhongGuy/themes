@@ -34,7 +34,7 @@
 }
 ==/UserStyle== */
 @-moz-document domain("tf2center.com") {
-   @import '../helpers/roboto-font';
+   @import'../helpers/roboto-font';
   @import '../helpers/blink-effect';
 
   .rating-static {
@@ -265,11 +265,13 @@
     }
   }
 
-  .name.me {
+  .name.me,
+  .name.me i:hover {
     color: #6df6d2!important;
   }
 
-  .name.friend {
+  .name.friend,
+  .name.friend i:hover {
     color: #6dcff6!important;
   }
 }
