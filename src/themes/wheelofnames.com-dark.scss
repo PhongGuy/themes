@@ -23,7 +23,8 @@
   $text-medium-emphasis: rgba(255, 255, 255, .60)!important;
   $text-disabled: rgba(255, 255, 255, .38)!important;
 
-  body {
+  body,
+  html {
     background: $background;
     color: $text-medium-emphasis;
   }
@@ -38,6 +39,7 @@
     color: $text-high-emphasis;
   }
 
+  a > span,
   h1,
   h2,
   h3,
@@ -47,6 +49,7 @@
     color: $text-high-emphasis;
   }
 
+  #entries,
   input,
   textarea {
     background: $input;
@@ -79,5 +82,23 @@
   ::-webkit-scrollbar-track {
     background: transparent;
     border-radius: 10px;
+  }
+
+  .card,
+  .is-active > a,
+  .modal-card-body,
+  .modal-card-foot,
+  .modal-card-head {
+    background: $surface;
+    color: $text-medium-emphasis;
+  }
+
+  .ad-declaration {
+    display: none!important;
+  }
+
+  .button {
+    background: $primary;
+    color: $text-high-emphasis;
   }
 }
