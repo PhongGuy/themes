@@ -38,6 +38,7 @@ These themes are not done yet, parts might be missing.
 - [rank.tf Dark](https://raw.githubusercontent.com/PhongGuy/themes/main/dist/rank.tf-dark.user.css)
 - [instagram.com Dark](https://raw.githubusercontent.com/PhongGuy/themes/main/dist/instagram.com-dark.user.css)
 - [skillshare.com Dark](https://raw.githubusercontent.com/PhongGuy/themes/main/dist/skillshare.com-dark.user.css)
+- [wheelofnames.com Dark](https://raw.githubusercontent.com/PhongGuy/themes/main/dist/wheelofnames.com-dark.user.css)
 
 ## Making a new theme
 
