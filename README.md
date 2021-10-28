@@ -42,4 +42,4 @@ These themes are not done yet, parts might be missing.
 
 ## Making a new theme
 
-When making a new theme you type `npm run new github.com-dark`. That means the domain that will be generated is `github.com` and the theme is `dark`. When you start developing the theme you can compile on save with `npm start`
+When making a new theme you type `yarn run new github.com-dark`. That means the domain that will be generated is `github.com` and the theme is `dark`. When you start developing the theme you can compile on save with `yarn start`
