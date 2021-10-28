@@ -7,7 +7,12 @@
 @updateURL    https://raw.githubusercontent.com/PhongGuy/themes/main/dist/logs.tf-dark.user.css
 ==/UserStyle== */
 @-moz-document domain("logs.tf") {
-   @import'../helpers/roboto-font';
+   @import '../helpers/roboto-font';
+
+  // When light text appears on dark backgrounds (shown here as white on black) it should use the following opacity levels:
+  $text-high-emphasis: rgba(255, 255, 255, .87)!important;
+  $text-medium-emphasis: rgba(255, 255, 255, .60)!important;
+  $text-disabled: rgba(255, 255, 255, .38)!important;
 
   .dropdown-menu .divider,
   .popover hr {
@@ -147,5 +152,31 @@
 
   table tbody .highlight:not(:first-child) {
     background: rgba(255,255,255,.12) !important;
+  }
+
+  .controls {
+    & > div > div {
+      background: #1b1b1b !important;
+
+      div {
+        color: $text-medium-emphasis;
+        font-weight: bold;
+        font-size: 11px;
+      }
+    }
+
+    .filters-players li {
+      border-radius: 5px;
+      background: #dd4814;
+      color: $text-high-emphasis;
+
+      sup {
+        vertical-align: middle;
+      }
+    }
+  }
+
+  .pagination > li.active > a {
+    color: $text-high-emphasis;
   }
 }
