@@ -32,6 +32,7 @@ Install the theme you want. Supports automatic updates.
 
 These themes are not done yet, parts might be missing.
 
+- [serveme.tf Dark](https://raw.githubusercontent.com/PhongGuy/themes/main/dist/serveme.tf-dark.user.css)
 - [Stylus Dark](https://raw.githubusercontent.com/PhongGuy/themes/main/dist/stylus-dark.user.css)
 - [toornament.com Dark](https://raw.githubusercontent.com/PhongGuy/themes/main/dist/toornament.com-dark.user.css)
 - [rank.tf Dark](https://raw.githubusercontent.com/PhongGuy/themes/main/dist/rank.tf-dark.user.css)
