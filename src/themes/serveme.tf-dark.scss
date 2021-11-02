@@ -80,4 +80,74 @@
     background: transparent;
     border-radius: 10px;
   }
+
+  .bg-primary,
+  .dropdown-menu {
+    background: $surface;
+    color: $text-medium-emphasis;
+  }
+
+  .table td,
+  .table th,
+  .table thead th,
+  .table-bordered {
+    border: none;
+  }
+
+  .table-hover tr:hover {
+    background: $surface;
+  }
+
+  svg {
+    filter: invert(1);
+  }
+
+  .table-striped tr:nth-of-type(odd) {
+    background: $background;
+
+    &:hover {
+      background: $surface;
+    }
+  }
+
+  .select2-container {
+    .select2-choice {
+      background: #232323!important;
+      color: $text-high-emphasis;
+    }
+  }
+
+  .select2-drop,
+  .select2-results .select2-no-results,
+  .select2-results .select2-searching,
+  .select2-results .select2-selection-limit {
+    background: #232323!important;
+    color: $text-high-emphasis;
+  }
+
+  .select2-results {
+    li div {
+      color: $text-high-emphasis;
+    }
+
+    .select2-highlighted {
+      background: $input;
+    }
+  }
+
+  .card {
+    background: $surface;
+
+    .card-header {
+      background: $surface;
+      border: none;
+    }
+  }
+
+  // .pagination {
+  //   li a,
+  //   li span {
+  //     background: $surface;
+  //   }
+  // }
 }
