@@ -54,6 +54,12 @@
     border: none !important;
   }
 
+  form {
+    label {
+      background: transparent!important;
+    }
+  }
+
   :root {
     --background-page: #121212;
     --background-primary: #1d1d1d;
@@ -80,13 +86,14 @@
     --border60: transparent;
 
     // gray scales
-    --grayscale10: rgba(255,255,255,0.1);
-    --grayscale20: rgba(255,255,255,0.2);
-    --grayscale30: rgba(255,255,255,0.3);
-    --grayscale40: rgba(255,255,255,0.4);
-    --grayscale60: rgba(255,255,255,0.6);
-    --grayscale80: rgba(255,255,255,0.8);
-    --grayscale100: rgb(255,255,255);
+    --grayscale0: rgba(255,255,255,.7);
+    --grayscale10: rgba(255,255,255,.6);
+    --grayscale20: rgba(255,255,255,.5);
+    --grayscale30: rgba(255,255,255,.4);
+    --grayscale40: rgba(255,255,255,.3);
+    --grayscale60: rgba(255,255,255,.2);
+    --grayscale80: rgba(255,255,255,.1);
+    --grayscale100: $surface;
 
     //shadows
     --shadow-primary: rgb(0, 0, 0);
@@ -108,8 +115,4 @@
       border-bottom: 120px solid #1d1d1d;
     }
   }
-
-  // rect {
-
-  // }
 }
