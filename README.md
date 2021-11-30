@@ -36,6 +36,7 @@ These themes are not done yet, parts might be missing.
 - [Stylus Dark](https://raw.githubusercontent.com/PhongGuy/themes/main/dist/stylus-dark.user.css)
 - [toornament.com Dark](https://raw.githubusercontent.com/PhongGuy/themes/main/dist/toornament.com-dark.user.css)
 - [rank.tf Dark](https://raw.githubusercontent.com/PhongGuy/themes/main/dist/rank.tf-dark.user.css)
+- [ønskeskyen.dk Dark](https://raw.githubusercontent.com/PhongGuy/themes/main/dist/ønskeskyen.dk-dark.user.css)
   <!-- - [material.io Dark](https://raw.githubusercontent.com/PhongGuy/themes/main/dist/material.io-dark.user.css) -->
   <!-- - [npmjs.com Dark](https://raw.githubusercontent.com/PhongGuy/themes/main/dist/npmjs.com-dark.user.css) -->
   <!-- - [instagram.com Dark](https://raw.githubusercontent.com/PhongGuy/themes/main/dist/instagram.com-dark.user.css) -->
