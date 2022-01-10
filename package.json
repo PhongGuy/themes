@@ -20,7 +20,7 @@
   "homepage": "https://github.com/PhongGuy/themes#readme",
   "dependencies": {},
   "devDependencies": {
-    "colors": "^1.4.0",
+    "colors": "^1.4.2",
     "node-sass": "^5.0.0",
     "node-sass-import": "^2.0.1"
   }
