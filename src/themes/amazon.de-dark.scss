@@ -7,7 +7,7 @@
 @updateURL    https://raw.githubusercontent.com/PhongGuy/themes/main/dist/amazon.de-dark.user.css
 ==/UserStyle== */
 @-moz-document domain("amazon.de") {
-   @import '../helpers/roboto-font';
+   @import'../helpers/roboto-font';
 
   $background: #121212!important;
   $db1: #1e1e1e!important;
@@ -31,21 +31,58 @@
   $text-medium-emphasis: rgba(255, 255, 255, .60)!important;
   $text-disabled: rgba(255, 255, 255, .38)!important;
 
-  body {
+  #accountMenu-container #accountMenu-canvas,
+  #accountMenu-container #hmenu-canvas,
+  #hmenu-container #accountMenu-canvas,
+  #hmenu-container #hmenu-canvas,
+  #pageContent,
+  body,
+  html {
     background: $background;
     color: $text-medium-emphasis;
   }
 
+  #accountMenu-container #accountMenu-canvas #accountMenu-content ul.hmenu li a,
+  #accountMenu-container #accountMenu-canvas #accountMenu-content ul.hmenu li a:hover,
+  #accountMenu-container #accountMenu-canvas #accountMenu-content ul.hmenu li a:visited,
+  #accountMenu-container #accountMenu-canvas #hmenu-content ul.hmenu li a,
+  #accountMenu-container #accountMenu-canvas #hmenu-content ul.hmenu li a:hover,
+  #accountMenu-container #accountMenu-canvas #hmenu-content ul.hmenu li a:visited,
+  #accountMenu-container #hmenu-canvas #accountMenu-content ul.hmenu li a,
+  #accountMenu-container #hmenu-canvas #accountMenu-content ul.hmenu li a:hover,
+  #accountMenu-container #hmenu-canvas #accountMenu-content ul.hmenu li a:visited,
+  #accountMenu-container #hmenu-canvas #hmenu-content ul.hmenu li a,
+  #accountMenu-container #hmenu-canvas #hmenu-content ul.hmenu li a:hover,
+  #accountMenu-container #hmenu-canvas #hmenu-content ul.hmenu li a:visited,
+  #hmenu-container #accountMenu-canvas #accountMenu-content ul.hmenu li a,
+  #hmenu-container #accountMenu-canvas #accountMenu-content ul.hmenu li a:hover,
+  #hmenu-container #accountMenu-canvas #accountMenu-content ul.hmenu li a:visited,
+  #hmenu-container #accountMenu-canvas #hmenu-content ul.hmenu li a,
+  #hmenu-container #accountMenu-canvas #hmenu-content ul.hmenu li a:hover,
+  #hmenu-container #accountMenu-canvas #hmenu-content ul.hmenu li a:visited,
+  #hmenu-container #hmenu-canvas #accountMenu-content ul.hmenu li a,
+  #hmenu-container #hmenu-canvas #accountMenu-content ul.hmenu li a:hover,
+  #hmenu-container #hmenu-canvas #accountMenu-content ul.hmenu li a:visited,
+  #hmenu-container #hmenu-canvas #hmenu-content ul.hmenu li a,
+  #hmenu-container #hmenu-canvas #hmenu-content ul.hmenu li a:hover,
+  #hmenu-container #hmenu-canvas #hmenu-content ul.hmenu li a:visited,
+  .a-checkbox label,
+  .a-radio label,
+  a,
   li,
-  p {
+  p,
+  span {
     color: $text-medium-emphasis;
   }
 
+  #hmenu-container #hmenu-canvas #hmenu-content ul.hmenu li .hmenu-item.hmenu-title,
+  a[href]:hover,
   b,
   strong {
     color: $text-high-emphasis;
   }
 
+  .a-color-base,
   h1,
   h2,
   h3,
@@ -87,5 +124,34 @@
   ::-webkit-scrollbar-track {
     background: transparent;
     border-radius: 10px;
+  }
+
+  // background db1
+  .a-box,
+  .a-box .a-divider.a-divider-break h5,
+  .a-color-base-background .a-divider.a-divider-break h5,
+  .a-divider.a-divider-break h5,
+  .gw-card-layout .a-cardui,
+  .gw-card-layout .desktop-row > div,
+  html:not(.a-touch) #hmenu-container #hmenu-canvas #hmenu-content ul.hmenu li a.hmenu-item:hover {
+    background: $db1;
+    color: $text-medium-emphasis;
+  }
+
+  // border and box-shadow none
+  .a-box {
+    border: none !important;
+    box-shadow: none !important;
+  }
+
+  // background transparent
+  .a-box .a-divider.a-divider-section .a-divider-inner:after,
+  .a-color-base-background .a-divider.a-divider-section .a-divider-inner:after,
+  .a-divider.a-divider-section .a-divider-inner:after {
+    background: transparent !important;
+  }
+
+  .a-carousel-card-empty {
+    filter: invert(.93);
   }
 }
