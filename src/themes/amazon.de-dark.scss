@@ -7,7 +7,7 @@
 @updateURL    https://raw.githubusercontent.com/PhongGuy/themes/main/dist/amazon.de-dark.user.css
 ==/UserStyle== */
 @-moz-document domain("amazon.de") {
-   @import'../helpers/roboto-font';
+   @import '../helpers/roboto-font';
 
   $background: #121212!important;
   $db1: #1e1e1e!important;
@@ -67,6 +67,8 @@
   #hmenu-container #hmenu-canvas #hmenu-content ul.hmenu li a:hover,
   #hmenu-container #hmenu-canvas #hmenu-content ul.hmenu li a:visited,
   .a-checkbox label,
+  .a-color-secondary,
+  .a-color-tertiary,
   .a-radio label,
   a,
   li,
@@ -138,6 +140,13 @@
     color: $text-medium-emphasis;
   }
 
+  // background db4
+  .a-box.a-color-alternate-background,
+  .a-box.a-color-offset-background {
+    background: $db4;
+    color: $text-medium-emphasis;
+  }
+
   // border and box-shadow none
   .a-box {
     border: none !important;
@@ -151,7 +160,46 @@
     background: transparent !important;
   }
 
+  .a-button {
+    background: $db6;
+
+    .a-button-inner {
+      background: transparent !important;
+
+      &:hover .reorder-modal-trigger-icon {
+        transition: transform .7s ease-in-out;
+        transform: rotate(-360deg);
+      }
+    }
+  }
+
+  .a-button {
+    box-shadow: 0 3px 1px -2px #0003, 0 2px 2px #00000024, 0 1px 5px #0000001f !important;
+    border: none !important;
+  }
+
+  .a-button-primary {
+    background: $primary;
+  }
+
   .a-carousel-card-empty {
     filter: invert(.93);
+  }
+
+  .a-icon,
+  .reorder-modal-trigger-icon {
+    filter:invert(1);
+  }
+
+  .item-view-qty {
+    background: $secondary;
+    font-size: 12px;
+    font-weight: bold;
+    border: none;
+  }
+
+  .alm-grid-desktop-grid-container > div,
+  .alm-grid-desktop-grid-container > div > div {
+    background: $db1;
   }
 }
