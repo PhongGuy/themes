@@ -25,12 +25,9 @@ jobs:
         run: yarn build
 
       - name: Push
-        uses: actions-x/commit@v2
+        uses: actions-x/commit@v6
         with:
           email: 41898282+github-actions[bot]@users.noreply.github.com
           name: github-actions[bot]
-          branch: main
           files: dist src/themes
-          repository: https://github.com/PhongGuy/themes
-          token: ${{ secrets.MY_SECRET_TOKEN }}
           message: automated regeneration
